@@ -1,0 +1,10 @@
+{
+  "name": "dompurify",
+  "version": "3.4.14",
+  "license": "(Apache-2.0 OR MPL-2.0)",
+  "main": "purify.cjs",
+  "types": "purify.d.ts",
+  "exports": {
+    ".": { "types": "./purify.d.ts", "default": "./purify.cjs" }
+  }
+}

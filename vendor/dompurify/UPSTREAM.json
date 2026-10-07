@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/cure53/DOMPurify",
+  "tag": "3.4.14",
+  "purpose": "Local adoption audit harness only; application keeps its own pinned pnpm dependency",
+  "files": [
+    { "upstream": "dist/purify.cjs.js", "local": "purify.cjs", "gitBlob": "26354c1f5e4712585ce2ca6527e00ae05b3fc18b" },
+    { "upstream": "dist/purify.cjs.d.ts", "local": "purify.d.ts", "gitBlob": "f7ff2341c63a63772a85f3dc75b5ce951bc5e834" },
+    { "upstream": "LICENSE", "local": "LICENSE", "gitBlob": "d645695673349e3947e8e5ae42332d0ac3164cd7" }
+  ],
+  "packageJson": "Local wrapper; upstream package metadata was not copied unchanged"
+}
