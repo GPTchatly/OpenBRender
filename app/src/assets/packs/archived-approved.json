@@ -1,0 +1,324 @@
+[
+  {
+    "id": "bioicons-cell-culture-b-gideon-bergheim-bacteria-culture-loop-c1641787",
+    "title": "Bacteria culture loop",
+    "description": "Bacteria culture loop, a reusable scientific vector illustration from Bioicons.",
+    "keywords": [
+      "bacteria",
+      "culture",
+      "loop",
+      "cell"
+    ],
+    "category": "Cell culture",
+    "source": {
+      "provider": "Bioicons",
+      "sourceUrl": "https://github.com/duerrsimon/bioicons/blob/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-0/Cell_culture/B--Gideon-Bergheim/bacteria_culture_loop.svg",
+      "assetUrl": "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-0/Cell_culture/B--Gideon-Bergheim/bacteria_culture_loop.svg",
+      "retrievedAt": "2026-09-05",
+      "revision": "d29e766ea7580b8063c4f47b29e872db40a4d979",
+      "upstreamPath": "static/icons/cc-0/Cell_culture/B--Gideon-Bergheim/bacteria_culture_loop.svg"
+    },
+    "creator": {
+      "name": "B--Gideon-Bergheim",
+      "url": null
+    },
+    "license": {
+      "id": "CC0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "attribution": {
+      "text": "Bacteria culture loop by B--Gideon-Bergheim, distributed via Bioicons under CC0 1.0.",
+      "modified": false,
+      "modificationNotes": null
+    },
+    "fingerprint": "813f5b0c860f62ea143765e341dfc856e8aa33703abebc04cd88f13cc3f68624"
+  },
+  {
+    "id": "bioicons-cell-types-daniel-marcos-smooth-muscle-cell-v1-8cf2a193",
+    "title": "Smooth muscle cell v1",
+    "description": "Smooth muscle cell v1, a reusable scientific vector illustration from Bioicons.",
+    "keywords": [
+      "smooth",
+      "muscle",
+      "cell",
+      "v1",
+      "cell",
+      "types"
+    ],
+    "category": "Cell types",
+    "source": {
+      "provider": "Bioicons",
+      "sourceUrl": "https://github.com/duerrsimon/bioicons/blob/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-0/Cell_types/Daniel-Marcos/smooth_muscle_cell_v1.svg",
+      "assetUrl": "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-0/Cell_types/Daniel-Marcos/smooth_muscle_cell_v1.svg",
+      "retrievedAt": "2026-09-05",
+      "revision": "d29e766ea7580b8063c4f47b29e872db40a4d979",
+      "upstreamPath": "static/icons/cc-0/Cell_types/Daniel-Marcos/smooth_muscle_cell_v1.svg"
+    },
+    "creator": {
+      "name": "Daniel-Marcos",
+      "url": null
+    },
+    "license": {
+      "id": "CC0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "attribution": {
+      "text": "Smooth muscle cell v1 by Daniel-Marcos, distributed via Bioicons under CC0 1.0.",
+      "modified": false,
+      "modificationNotes": null
+    },
+    "fingerprint": "7738a426f666587e736383172fe2d2d3318dc88e65a5dd8fd36f3e7e34f7eb46"
+  },
+  {
+    "id": "bioicons-cell-types-daniel-marcos-smooth-muscle-cell-v2-8755c483",
+    "title": "Smooth muscle cell v2",
+    "description": "Smooth muscle cell v2, a reusable scientific vector illustration from Bioicons.",
+    "keywords": [
+      "smooth",
+      "muscle",
+      "cell",
+      "v2",
+      "cell",
+      "types"
+    ],
+    "category": "Cell types",
+    "source": {
+      "provider": "Bioicons",
+      "sourceUrl": "https://github.com/duerrsimon/bioicons/blob/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-0/Cell_types/Daniel-Marcos/Smooth_muscle_cell_v2.svg",
+      "assetUrl": "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-0/Cell_types/Daniel-Marcos/Smooth_muscle_cell_v2.svg",
+      "retrievedAt": "2026-09-05",
+      "revision": "d29e766ea7580b8063c4f47b29e872db40a4d979",
+      "upstreamPath": "static/icons/cc-0/Cell_types/Daniel-Marcos/Smooth_muscle_cell_v2.svg"
+    },
+    "creator": {
+      "name": "Daniel-Marcos",
+      "url": null
+    },
+    "license": {
+      "id": "CC0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "attribution": {
+      "text": "Smooth muscle cell v2 by Daniel-Marcos, distributed via Bioicons under CC0 1.0.",
+      "modified": false,
+      "modificationNotes": null
+    },
+    "fingerprint": "0489cf7afb69150376e6801c0e962c973f9b0864b737dc11d229dede31ea84c5"
+  },
+  {
+    "id": "bioicons-cell-types-ewaoz-redbloodcell-a3b0c11b",
+    "title": "Redbloodcell",
+    "description": "Redbloodcell, a reusable scientific vector illustration from Bioicons.",
+    "keywords": [
+      "redbloodcell",
+      "cell",
+      "types"
+    ],
+    "category": "Cell types",
+    "source": {
+      "provider": "Bioicons",
+      "sourceUrl": "https://github.com/duerrsimon/bioicons/blob/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-0/Cell_types/EwaOz/redbloodcell.svg",
+      "assetUrl": "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-0/Cell_types/EwaOz/redbloodcell.svg",
+      "retrievedAt": "2026-09-05",
+      "revision": "d29e766ea7580b8063c4f47b29e872db40a4d979",
+      "upstreamPath": "static/icons/cc-0/Cell_types/EwaOz/redbloodcell.svg"
+    },
+    "creator": {
+      "name": "EwaOz",
+      "url": "https://linktr.ee/ehvah"
+    },
+    "license": {
+      "id": "CC0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "attribution": {
+      "text": "Redbloodcell by EwaOz, distributed via Bioicons under CC0 1.0.",
+      "modified": false,
+      "modificationNotes": null
+    },
+    "fingerprint": "6ddecdd989358f874900e5233a1a357c4a14525fff095e100aa14ce1c56877ba"
+  },
+  {
+    "id": "bioicons-microbiology-divakar-badal-inverted-microscope-a9cad795",
+    "title": "Inverted microscope",
+    "description": "Inverted microscope, a reusable scientific vector illustration from Bioicons.",
+    "keywords": [
+      "inverted",
+      "microscope",
+      "microbiology"
+    ],
+    "category": "Microbiology",
+    "source": {
+      "provider": "Bioicons",
+      "sourceUrl": "https://github.com/duerrsimon/bioicons/blob/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-0/Microbiology/Divakar-Badal/inverted_microscope.svg",
+      "assetUrl": "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-0/Microbiology/Divakar-Badal/inverted_microscope.svg",
+      "retrievedAt": "2026-09-05",
+      "revision": "d29e766ea7580b8063c4f47b29e872db40a4d979",
+      "upstreamPath": "static/icons/cc-0/Microbiology/Divakar-Badal/inverted_microscope.svg"
+    },
+    "creator": {
+      "name": "Divakar-Badal",
+      "url": null
+    },
+    "license": {
+      "id": "CC0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "attribution": {
+      "text": "Inverted microscope by Divakar-Badal, distributed via Bioicons under CC0 1.0.",
+      "modified": false,
+      "modificationNotes": null
+    },
+    "fingerprint": "550bc3da8c3892b1e01dfda4aa74683dc7e893ac1b654a31b4b25b12ea945a85"
+  },
+  {
+    "id": "bioicons-intracellular-components-jaiganesh-mitochondria-2fb620b7",
+    "title": "Mitochondria",
+    "description": "Mitochondria, a reusable scientific vector illustration from Bioicons.",
+    "keywords": [
+      "mitochondria",
+      "intracellular",
+      "components"
+    ],
+    "category": "Intracellular components",
+    "source": {
+      "provider": "Bioicons",
+      "sourceUrl": "https://github.com/duerrsimon/bioicons/blob/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-0/Intracellular_components/jaiganesh/mitochondria.svg",
+      "assetUrl": "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-0/Intracellular_components/jaiganesh/mitochondria.svg",
+      "retrievedAt": "2026-09-05",
+      "revision": "d29e766ea7580b8063c4f47b29e872db40a4d979",
+      "upstreamPath": "static/icons/cc-0/Intracellular_components/jaiganesh/mitochondria.svg"
+    },
+    "creator": {
+      "name": "jaiganesh",
+      "url": "https://github.com/jaiganeshjg"
+    },
+    "license": {
+      "id": "CC0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "attribution": {
+      "text": "Mitochondria by jaiganesh, distributed via Bioicons under CC0 1.0.",
+      "modified": false,
+      "modificationNotes": null
+    },
+    "fingerprint": "9d8818cd1f7c9e17d4b19d8fcd03666f4a74938fa6503eb6b6f8ed2f20b5607f"
+  },
+  {
+    "id": "bioicons-intracellular-components-jaiganesh-proteasome-6a087d9e",
+    "title": "Proteasome",
+    "description": "Proteasome, a reusable scientific vector illustration from Bioicons.",
+    "keywords": [
+      "proteasome",
+      "intracellular",
+      "components"
+    ],
+    "category": "Intracellular components",
+    "source": {
+      "provider": "Bioicons",
+      "sourceUrl": "https://github.com/duerrsimon/bioicons/blob/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-0/Intracellular_components/jaiganesh/proteasome.svg",
+      "assetUrl": "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-0/Intracellular_components/jaiganesh/proteasome.svg",
+      "retrievedAt": "2026-09-05",
+      "revision": "d29e766ea7580b8063c4f47b29e872db40a4d979",
+      "upstreamPath": "static/icons/cc-0/Intracellular_components/jaiganesh/proteasome.svg"
+    },
+    "creator": {
+      "name": "jaiganesh",
+      "url": "https://github.com/jaiganeshjg"
+    },
+    "license": {
+      "id": "CC0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "attribution": {
+      "text": "Proteasome by jaiganesh, distributed via Bioicons under CC0 1.0.",
+      "modified": false,
+      "modificationNotes": null
+    },
+    "fingerprint": "a3aa26cbe52bb95d1cbf6b4f8f8a29cc97e8bbf6938634a30ba4300fdc99f209"
+  },
+  {
+    "id": "bioicons-nucleic-acids-emilyadaniel-plasmid-3-a1473e33",
+    "title": "Plasmid 3",
+    "description": "Plasmid 3, a reusable scientific vector illustration from Bioicons.",
+    "keywords": [
+      "plasmid",
+      "nucleic",
+      "acids"
+    ],
+    "category": "Nucleic acids",
+    "source": {
+      "provider": "Bioicons",
+      "sourceUrl": "https://github.com/duerrsimon/bioicons/blob/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-0/Nucleic_acids/EmilyADaniel/plasmid-3.svg",
+      "assetUrl": "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-0/Nucleic_acids/EmilyADaniel/plasmid-3.svg",
+      "retrievedAt": "2026-09-05",
+      "revision": "d29e766ea7580b8063c4f47b29e872db40a4d979",
+      "upstreamPath": "static/icons/cc-0/Nucleic_acids/EmilyADaniel/plasmid-3.svg"
+    },
+    "creator": {
+      "name": "EmilyADaniel",
+      "url": null
+    },
+    "license": {
+      "id": "CC0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "attribution": {
+      "text": "Plasmid 3 by EmilyADaniel, distributed via Bioicons under CC0 1.0.",
+      "modified": false,
+      "modificationNotes": null
+    },
+    "fingerprint": "01fd977a9c65af92fa6c0467a09213c06cba8b21aea77bf2e87c345a5a263750"
+  },
+  {
+    "id": "bioicons-nucleic-acids-emilyadaniel-plasmid-4-436a3cd8",
+    "title": "Plasmid 4",
+    "description": "Plasmid 4, a reusable scientific vector illustration from Bioicons.",
+    "keywords": [
+      "plasmid",
+      "nucleic",
+      "acids"
+    ],
+    "category": "Nucleic acids",
+    "source": {
+      "provider": "Bioicons",
+      "sourceUrl": "https://github.com/duerrsimon/bioicons/blob/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-0/Nucleic_acids/EmilyADaniel/plasmid-4.svg",
+      "assetUrl": "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-0/Nucleic_acids/EmilyADaniel/plasmid-4.svg",
+      "retrievedAt": "2026-09-05",
+      "revision": "d29e766ea7580b8063c4f47b29e872db40a4d979",
+      "upstreamPath": "static/icons/cc-0/Nucleic_acids/EmilyADaniel/plasmid-4.svg"
+    },
+    "creator": {
+      "name": "EmilyADaniel",
+      "url": null
+    },
+    "license": {
+      "id": "CC0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "attribution": {
+      "text": "Plasmid 4 by EmilyADaniel, distributed via Bioicons under CC0 1.0.",
+      "modified": false,
+      "modificationNotes": null
+    },
+    "fingerprint": "d641297d4ff330baa96166fd8950ad82eb6edcd03256cdaa921cd1bed910daa4"
+  }
+]

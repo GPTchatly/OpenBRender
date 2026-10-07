@@ -1,0 +1,487 @@
+/* Locally bundled OFL-1.1 fonts. Copyright and licence notices ship in /licenses. */
+
+/* Barlow: the application's technical lettering. */
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./assets/fonts/barlow-latin-400-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./assets/fonts/barlow-latin-500-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./assets/fonts/barlow-latin-600-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./assets/fonts/barlow-latin-700-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./assets/fonts/barlow-latin-ext-400-normal.woff2") format("woff2");
+  unicode-range:
+    U+0100-02ba, U+02bd-02c5, U+02c7-02cc, U+02ce-02d7, U+02dd-02ff, U+0304,
+    U+0308, U+0329, U+1d00-1dbf, U+1e00-1e9f, U+1ef2-1eff, U+2020, U+20a0-20ab,
+    U+20ad-20c0, U+2113, U+2c60-2c7f, U+a720-a7ff;
+}
+
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./assets/fonts/barlow-latin-ext-500-normal.woff2") format("woff2");
+  unicode-range:
+    U+0100-02ba, U+02bd-02c5, U+02c7-02cc, U+02ce-02d7, U+02dd-02ff, U+0304,
+    U+0308, U+0329, U+1d00-1dbf, U+1e00-1e9f, U+1ef2-1eff, U+2020, U+20a0-20ab,
+    U+20ad-20c0, U+2113, U+2c60-2c7f, U+a720-a7ff;
+}
+
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./assets/fonts/barlow-latin-ext-600-normal.woff2") format("woff2");
+  unicode-range:
+    U+0100-02ba, U+02bd-02c5, U+02c7-02cc, U+02ce-02d7, U+02dd-02ff, U+0304,
+    U+0308, U+0329, U+1d00-1dbf, U+1e00-1e9f, U+1ef2-1eff, U+2020, U+20a0-20ab,
+    U+20ad-20c0, U+2113, U+2c60-2c7f, U+a720-a7ff;
+}
+
+/* Barlow Semi Condensed: title-block captions and cell labels. */
+@font-face {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./assets/fonts/barlow-semi-condensed-latin-500-normal.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./assets/fonts/barlow-semi-condensed-latin-600-normal.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./assets/fonts/barlow-semi-condensed-latin-ext-500-normal.woff2")
+    format("woff2");
+  unicode-range:
+    U+0100-02ba, U+02bd-02c5, U+02c7-02cc, U+02ce-02d7, U+02dd-02ff, U+0304,
+    U+0308, U+0329, U+1d00-1dbf, U+1e00-1e9f, U+1ef2-1eff, U+2020, U+20a0-20ab,
+    U+20ad-20c0, U+2113, U+2c60-2c7f, U+a720-a7ff;
+}
+
+@font-face {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./assets/fonts/barlow-semi-condensed-latin-ext-600-normal.woff2")
+    format("woff2");
+  unicode-range:
+    U+0100-02ba, U+02bd-02c5, U+02c7-02cc, U+02ce-02d7, U+02dd-02ff, U+0304,
+    U+0308, U+0329, U+1d00-1dbf, U+1e00-1e9f, U+1ef2-1eff, U+2020, U+20a0-20ab,
+    U+20ad-20c0, U+2113, U+2c60-2c7f, U+a720-a7ff;
+}
+
+/* Figure-document faces. They stay bundled because projects reference them. */
+@font-face {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./assets/fonts/ibm-plex-sans-latin-400-normal.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./assets/fonts/ibm-plex-sans-latin-500-normal.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./assets/fonts/ibm-plex-sans-latin-600-normal.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./assets/fonts/ibm-plex-sans-latin-ext-400-normal.woff2")
+    format("woff2");
+  unicode-range:
+    U+0100-02ba, U+02bd-02c5, U+02c7-02cc, U+02ce-02d7, U+02dd-02ff, U+0304,
+    U+0308, U+0329, U+1d00-1dbf, U+1e00-1e9f, U+1ef2-1eff, U+2020, U+20a0-20ab,
+    U+20ad-20c0, U+2113, U+2c60-2c7f, U+a720-a7ff;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./assets/fonts/ibm-plex-sans-latin-ext-500-normal.woff2")
+    format("woff2");
+  unicode-range:
+    U+0100-02ba, U+02bd-02c5, U+02c7-02cc, U+02ce-02d7, U+02dd-02ff, U+0304,
+    U+0308, U+0329, U+1d00-1dbf, U+1e00-1e9f, U+1ef2-1eff, U+2020, U+20a0-20ab,
+    U+20ad-20c0, U+2113, U+2c60-2c7f, U+a720-a7ff;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./assets/fonts/ibm-plex-sans-latin-ext-600-normal.woff2")
+    format("woff2");
+  unicode-range:
+    U+0100-02ba, U+02bd-02c5, U+02c7-02cc, U+02ce-02d7, U+02dd-02ff, U+0304,
+    U+0308, U+0329, U+1d00-1dbf, U+1e00-1e9f, U+1ef2-1eff, U+2020, U+20a0-20ab,
+    U+20ad-20c0, U+2113, U+2c60-2c7f, U+a720-a7ff;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./assets/fonts/ibm-plex-mono-latin-500-normal.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "STIX Two Text";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./assets/fonts/stix-two-text-latin-400-normal.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "STIX Two Text";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./assets/fonts/stix-two-text-latin-600-normal.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "STIX Two Text";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./assets/fonts/stix-two-text-latin-ext-400-normal.woff2")
+    format("woff2");
+  unicode-range:
+    U+0100-02ba, U+02bd-02c5, U+02c7-02cc, U+02ce-02d7, U+02dd-02ff, U+0304,
+    U+0308, U+0329, U+1d00-1dbf, U+1e00-1e9f, U+1ef2-1eff, U+2020, U+20a0-20ab,
+    U+20ad-20c0, U+2113, U+2c60-2c7f, U+a720-a7ff;
+}
+
+@font-face {
+  font-family: "STIX Two Text";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./assets/fonts/stix-two-text-latin-ext-600-normal.woff2")
+    format("woff2");
+  unicode-range:
+    U+0100-02ba, U+02bd-02c5, U+02c7-02cc, U+02ce-02d7, U+02dd-02ff, U+0304,
+    U+0308, U+0329, U+1d00-1dbf, U+1e00-1e9f, U+1ef2-1eff, U+2020, U+20a0-20ab,
+    U+20ad-20c0, U+2113, U+2c60-2c7f, U+a720-a7ff;
+}
+
+@font-face {
+  font-family: "STIX Two Text";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./assets/fonts/stix-two-text-greek-400-normal.woff2")
+    format("woff2");
+  unicode-range:
+    U+0370-0377, U+037a-037f, U+0384-038a, U+038c, U+038e-03a1, U+03a3-03ff;
+}
+
+@font-face {
+  font-family: "STIX Two Text";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./assets/fonts/stix-two-text-greek-600-normal.woff2")
+    format("woff2");
+  unicode-range:
+    U+0370-0377, U+037a-037f, U+0384-038a, U+038c, U+038e-03a1, U+03a3-03ff;
+}
+
+/*
+ * Drawing Title Block.
+ * Light theme is drafting film on a drafting board; dark theme is the blueprint.
+ * Ink carries structure and primary actions. Guide blue marks everything that
+ * never reaches the export: grid, dimensions, selection, focus. Revision red is
+ * reserved for work that needs attention.
+ */
+:root {
+  color-scheme: light;
+
+  /* Type families */
+  --font-ui: "Barlow", "Segoe UI", system-ui, sans-serif;
+  --font-label: "Barlow Semi Condensed", "Barlow", "Segoe UI", sans-serif;
+  --font-technical: var(--font-label);
+  --font-mono: "IBM Plex Mono", "Cascadia Mono", monospace;
+  --font-scientific: "STIX Two Text", Georgia, serif;
+
+  /* Type scale (fixed, 1.125–1.2 steps) */
+  --text-display: 2.75rem;
+  --text-page-title: 1.75rem;
+  --text-section-title: 1.125rem;
+  --text-ui-heading: 1.0625rem;
+  --text-ui-title: 1rem;
+  --text-body: 0.875rem;
+  --text-control: 0.8125rem;
+  --text-meta: 0.75rem;
+  --text-caption: 0.6875rem;
+  --text-label: 0.65625rem;
+  --tracking-label: 0.07em;
+
+  /* Drafting film and ink */
+  --color-text: #18233a;
+  --color-text-secondary: #46536a;
+  --color-text-tertiary: #5f6b80;
+  --color-text-disabled: #9ea7b4;
+  --color-text-inverse: #f6f8f9;
+  --color-document: #ffffff;
+  --color-surface-canvas: #f3f5f5;
+  --color-surface-primary: #f3f5f5;
+  --color-surface-secondary: #eaeeef;
+  --color-surface-tertiary: #dfe4e6;
+  --color-surface-raised: #fbfcfc;
+  --color-workspace: #d5dbdd;
+  --color-border: #cbd2d6;
+  --color-border-strong: #939eab;
+  --color-ink: #18233a;
+  --color-brand: #1b2c4a;
+  --color-brand-hover: #273d63;
+  --color-brand-pressed: #101c32;
+  --color-brand-soft: #e1e7f0;
+  --color-brand-border: #a1aec3;
+  --color-focus: #1769b5;
+  --color-guide: #2b87cc;
+  --color-guide-text: #195d9c;
+  --color-guide-soft: rgb(43 135 204 / 16%);
+  --color-grid: rgb(43 135 204 / 14%);
+  --color-grid-major: rgb(43 135 204 / 24%);
+  --color-selection: #2b87cc;
+  /* Approval is an ink stamp; the world has no green. */
+  --color-success: #18233a;
+  --color-success-soft: #e1e7f0;
+  --color-warning: #b8361f;
+  --color-warning-soft: #fbe9e5;
+  --color-danger: #a8231c;
+  --color-danger-soft: #fae3e1;
+  --color-scrim: rgb(16 26 44 / 46%);
+
+  /* Line weights: hairline, medium, heavy (ISO 0.25 / 0.35 / 0.7). Browsers snap
+     borders to whole pixels, so hair and medium separate by tone, heavy by width. */
+  --rule-hair: 1px solid var(--color-border);
+  --rule-medium: 1px solid var(--color-border-strong);
+  --rule-heavy: 2px solid var(--color-ink);
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  /* Shape, control and layout: drafting corners are square */
+  --radius-xs: 1px;
+  --radius-sm: 2px;
+  --radius-md: 3px;
+  --radius-lg: 4px;
+  --control-height-sm: 1.75rem;
+  --control-height-md: 2.125rem;
+  --control-height-lg: 2.75rem;
+  --icon-md: 18px;
+  --panel-left-width: 18rem;
+  --panel-right-width: 19.75rem;
+  --content-max-width: 72rem;
+
+  /* Depth and interaction */
+  --shadow-document:
+    0 1px 2px rgb(24 35 58 / 14%), 0 8px 22px rgb(24 35 58 / 12%);
+  --shadow-raised: 0 6px 18px rgb(24 35 58 / 14%);
+  --shadow-overlay:
+    0 2px 6px rgb(16 26 44 / 14%), 0 24px 60px rgb(16 26 44 / 26%);
+  --focus-ring: 0 0 0 3px rgb(23 105 181 / 20%);
+  --motion-fast: 120ms;
+  --motion-standard: 180ms;
+  --motion-slow: 260ms;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-emphasized: cubic-bezier(0.16, 1, 0.3, 1);
+  --z-menu: 30;
+  --z-dialog: 100;
+  --z-toast: 120;
+
+  /* Compatibility aliases */
+  --ink: var(--color-text);
+  --ink-subtle: var(--color-text-secondary);
+  --muted: var(--color-text-tertiary);
+  --border: var(--color-border);
+  --border-strong: var(--color-border-strong);
+  --panel: var(--color-surface-canvas);
+  --panel-soft: var(--color-surface-secondary);
+  --workspace: var(--color-workspace);
+  --accent: var(--color-brand);
+  --accent-hover: var(--color-brand-hover);
+  --accent-soft: var(--color-brand-soft);
+  --success: var(--color-success);
+  --success-soft: var(--color-success-soft);
+  --warning: var(--color-warning);
+  --warning-soft: var(--color-warning-soft);
+  --danger: var(--color-danger);
+  --focus: var(--color-focus);
+  --radius: var(--radius-sm);
+  --shadow-float: var(--shadow-overlay);
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-text: #e3eaf4;
+  --color-text-secondary: #a8b5c9;
+  --color-text-tertiary: #8794aa;
+  --color-text-disabled: #56637b;
+  --color-text-inverse: #0e182a;
+  --color-document: #ffffff;
+  --color-surface-canvas: #111b2c;
+  --color-surface-primary: #111b2c;
+  --color-surface-secondary: #16223a;
+  --color-surface-tertiary: #1e2c47;
+  --color-surface-raised: #172440;
+  --color-workspace: #0a1220;
+  --color-border: #263653;
+  --color-border-strong: #44587c;
+  --color-ink: #e3eaf4;
+  --color-brand: #e3eaf4;
+  --color-brand-hover: #ffffff;
+  --color-brand-pressed: #c6d2e3;
+  --color-brand-soft: #22324f;
+  --color-brand-border: #4c6289;
+  --color-focus: #78c3ff;
+  --color-guide: #5fb3ef;
+  --color-guide-text: #5fb3ef;
+  --color-guide-soft: rgb(95 179 239 / 18%);
+  --color-grid: rgb(95 179 239 / 10%);
+  --color-grid-major: rgb(95 179 239 / 18%);
+  --color-selection: #5fb3ef;
+  --color-success: #e3eaf4;
+  --color-success-soft: #22324f;
+  --color-warning: #ff8f7a;
+  --color-warning-soft: #3a2026;
+  --color-danger: #ff7b6e;
+  --color-danger-soft: #3b1d22;
+  --color-scrim: rgb(2 6 14 / 62%);
+  --shadow-document: 0 2px 4px rgb(0 0 0 / 30%), 0 12px 30px rgb(0 0 0 / 34%);
+  --shadow-raised: 0 8px 22px rgb(0 0 0 / 34%);
+  --shadow-overlay: 0 2px 8px rgb(0 0 0 / 30%), 0 28px 70px rgb(0 0 0 / 50%);
+  --focus-ring: 0 0 0 3px rgb(120 195 255 / 26%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --color-text: #e3eaf4;
+    --color-text-secondary: #a8b5c9;
+    --color-text-tertiary: #8794aa;
+    --color-text-disabled: #56637b;
+    --color-text-inverse: #0e182a;
+    --color-document: #ffffff;
+    --color-surface-canvas: #111b2c;
+    --color-surface-primary: #111b2c;
+    --color-surface-secondary: #16223a;
+    --color-surface-tertiary: #1e2c47;
+    --color-surface-raised: #172440;
+    --color-workspace: #0a1220;
+    --color-border: #263653;
+    --color-border-strong: #44587c;
+    --color-ink: #e3eaf4;
+    --color-brand: #e3eaf4;
+    --color-brand-hover: #ffffff;
+    --color-brand-pressed: #c6d2e3;
+    --color-brand-soft: #22324f;
+    --color-brand-border: #4c6289;
+    --color-focus: #78c3ff;
+    --color-guide: #5fb3ef;
+    --color-guide-text: #5fb3ef;
+    --color-guide-soft: rgb(95 179 239 / 18%);
+    --color-grid: rgb(95 179 239 / 10%);
+    --color-grid-major: rgb(95 179 239 / 18%);
+    --color-selection: #5fb3ef;
+    --color-success: #e3eaf4;
+    --color-success-soft: #22324f;
+    --color-warning: #ff8f7a;
+    --color-warning-soft: #3a2026;
+    --color-danger: #ff7b6e;
+    --color-danger-soft: #3b1d22;
+    --color-scrim: rgb(2 6 14 / 62%);
+    --shadow-document: 0 2px 4px rgb(0 0 0 / 30%), 0 12px 30px rgb(0 0 0 / 34%);
+    --shadow-raised: 0 8px 22px rgb(0 0 0 / 34%);
+    --shadow-overlay: 0 2px 8px rgb(0 0 0 / 30%), 0 28px 70px rgb(0 0 0 / 50%);
+    --focus-ring: 0 0 0 3px rgb(120 195 255 / 26%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-fast: 0.01ms;
+    --motion-standard: 0.01ms;
+    --motion-slow: 0.01ms;
+  }
+}

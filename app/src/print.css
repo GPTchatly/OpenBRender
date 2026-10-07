@@ -1,0 +1,8 @@
+#publication-print { display: none; }
+@media print {
+  @page { size: landscape; margin: 0; }
+  html, body { background: white; width: 100%; height: 100%; margin: 0; padding: 0; }
+  #root { display: none !important; }
+  #publication-print { display: block; width: 100%; }
+  #publication-print svg { display: block; width: 100%; height: auto; max-height: 100vh; }
+}
