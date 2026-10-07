@@ -1,0 +1,24 @@
+{
+  "name": "openrender",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.11.0"
+  },
+  "devDependencies": {
+    "dompurify": "file:vendor/dompurify",
+    "jsdom": "https://registry.npmjs.org/jsdom/-/jsdom-26.1.0.tgz",
+    "typescript": "5.9.3",
+    "zod": "4.5.4"
+  },
+  "scripts": {
+    "test": "node --import ./tests/register-source.mjs --test tests/*.test.mjs",
+    "typecheck:domain": "node node_modules/typescript/bin/tsc -p tsconfig.audit.json",
+    "dev": "npm --prefix app run dev",
+    "build": "npm --prefix app run build",
+    "start": "node scripts/serve-local.mjs",
+    "test:browser": "node tests/run-browser.mjs",
+    "test:artwork-browser": "node tests/artwork-browser.mjs",
+    "test:library-browser": "node --import ./tests/register-source.mjs tests/library-browser.mjs"
+  }
+}

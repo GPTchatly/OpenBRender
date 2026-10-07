@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", "module": "ESNext", "moduleResolution": "Bundler",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"], "strict": true,
+    "skipLibCheck": true, "strictPropertyInitialization": false, "declaration": true, "emitDeclarationOnly": true,
+    "outDir": "types", "noEmitOnError": false
+  },
+  "include": ["fabric.ts"],
+  "exclude": ["**/*.spec.ts", "**/*.test.ts", "**/*.fixtures.ts"]
+}

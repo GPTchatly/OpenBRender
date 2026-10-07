@@ -1,0 +1,18 @@
+<svg viewBox="0 0 297 210" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#ea0d13" stop-opacity="1"/>
+      <stop offset="1" stop-color="#ea0d13" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#0c23da" stop-opacity="1"/>
+      <stop offset="1" stop-color="#0b1966" stop-opacity="0.13716814"/>
+    </linearGradient>
+    <linearGradient id="d" x1="251.95" y1="110.391" x2="300.365" y2="41.528" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 -.268)"><stop offset="0" stop-color="#0c23da" stop-opacity="1"/><stop offset="1" stop-color="#0b1966" stop-opacity="0.13716814"/></linearGradient>
+    <linearGradient id="c" x1="49.652" y1="102.517" x2="62.94" y2="23.894" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 .268)"><stop offset="0" stop-color="#ea0d13" stop-opacity="1"/><stop offset="1" stop-color="#ea0d13" stop-opacity="0"/></linearGradient>
+  </defs>
+  <path d="m41.559 111.096 210.391-1.948Z" fill="none" stroke="#000" stroke-width="7.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dasharray="none" stroke-opacity="1"/>
+  <circle cx="41.4" cy="110.122" r="35" fill="url(#c)" fill-opacity="1" stroke="#000" stroke-width="4.99999"/>
+  <circle cx="255.366" cy="110.122" r="35" fill="url(#d)" fill-opacity="1" stroke="#000" stroke-width="5" stroke-miterlimit="4" stroke-dasharray="none" stroke-opacity="1"/>
+  <text xml:space="preserve" x="41.559" y="112.339" font-style="normal" font-weight="400" font-size="10.5833px" font-family="sans-serif" fill="#000" fill-opacity="1" stroke="none" stroke-width=".264583"/>
+</svg>

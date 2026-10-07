@@ -1,0 +1,126 @@
+<svg width="36.609352mm" height="32.148045mm" viewBox="0 0 36.609352 32.148045" version="1.1" id="svg1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+
+  <defs id="defs1">
+    <linearGradient id="linearGradient33">
+      <stop offset="0" id="stop32" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="1" id="stop33" stop-color="#707986" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linearGradient31">
+      <stop offset="0" id="stop29" stop-color="#d7551f" stop-opacity="0"/>
+      <stop offset="0.71096426" id="stop30" stop-color="#565867" stop-opacity="0"/>
+      <stop offset="1" id="stop31" stop-color="#000000" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient23">
+      <stop offset="0" id="stop21" stop-color="#d7551f" stop-opacity="0"/>
+      <stop offset="0.71096426" id="stop22" stop-color="#172aa6" stop-opacity="0"/>
+      <stop offset="1" id="stop23" stop-color="#140469" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient20">
+      <stop offset="0" id="stop19" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="1" id="stop20" stop-color="#1f6bd7" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linearGradient6">
+      <stop offset="0" id="stop4" stop-color="#d7551f" stop-opacity="0"/>
+      <stop offset="0.71096426" id="stop5" stop-color="#a63d17" stop-opacity="0"/>
+      <stop offset="1" id="stop6" stop-color="#370707" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient1">
+      <stop offset="0" id="stop1" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="1" id="stop2" stop-color="#d7551f" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="radialGradient86" gradientUnits="userSpaceOnUse" gradientTransform="translate(-24.454365,-21.093288)" cx="51.88829" cy="42.595673" fx="51.88829" fy="42.595673" r="3.7925184"><stop offset="0" stop-color="#ffffff" stop-opacity="1"/><stop offset="1" stop-color="#707986" stop-opacity="0"/></radialGradient>
+    <radialGradient id="radialGradient87" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.4648738,0.04412454,-0.04523337,1.5016853,-46.649126,-44.752455)" cx="51.88829" cy="42.595673" fx="51.88829" fy="42.595673" r="3.7925184"><stop offset="0" stop-color="#d7551f" stop-opacity="0"/><stop offset="0.71096426" stop-color="#565867" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity="1"/></radialGradient>
+    <radialGradient id="radialGradient94" gradientUnits="userSpaceOnUse" gradientTransform="translate(-24.454365,-21.093288)" cx="51.88829" cy="42.595673" fx="51.88829" fy="42.595673" r="3.7925184"><stop offset="0" stop-color="#ffffff" stop-opacity="1"/><stop offset="1" stop-color="#707986" stop-opacity="0"/></radialGradient>
+    <radialGradient id="radialGradient95" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.4648738,0.04412454,-0.04523337,1.5016853,-46.649126,-44.752455)" cx="51.88829" cy="42.595673" fx="51.88829" fy="42.595673" r="3.7925184"><stop offset="0" stop-color="#d7551f" stop-opacity="0"/><stop offset="0.71096426" stop-color="#565867" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity="1"/></radialGradient>
+    <radialGradient id="radialGradient96" gradientUnits="userSpaceOnUse" gradientTransform="translate(-24.454365,-21.093288)" cx="51.88829" cy="42.595673" fx="51.88829" fy="42.595673" r="3.7925184"><stop offset="0" stop-color="#ffffff" stop-opacity="1"/><stop offset="1" stop-color="#707986" stop-opacity="0"/></radialGradient>
+    <radialGradient id="radialGradient97" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.4648738,0.04412454,-0.04523337,1.5016853,-46.649126,-44.752455)" cx="51.88829" cy="42.595673" fx="51.88829" fy="42.595673" r="3.7925184"><stop offset="0" stop-color="#d7551f" stop-opacity="0"/><stop offset="0.71096426" stop-color="#565867" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity="1"/></radialGradient>
+    <radialGradient id="radialGradient98" gradientUnits="userSpaceOnUse" gradientTransform="translate(-28.476938,-30.744017)" cx="51.88829" cy="42.595673" fx="51.88829" fy="42.595673" r="3.7925184"><stop offset="0" stop-color="#ffffff" stop-opacity="1"/><stop offset="1" stop-color="#1f6bd7" stop-opacity="0"/></radialGradient>
+    <radialGradient id="radialGradient99" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.4648738,0.04412454,-0.04523337,1.5016853,-50.671702,-54.403185)" cx="51.88829" cy="42.595673" fx="51.88829" fy="42.595673" r="3.7925184"><stop offset="0" stop-color="#d7551f" stop-opacity="0"/><stop offset="0.71096426" stop-color="#172aa6" stop-opacity="0"/><stop offset="1" stop-color="#140469" stop-opacity="1"/></radialGradient>
+    <radialGradient id="radialGradient100" gradientUnits="userSpaceOnUse" gradientTransform="translate(-40.728555,-31.929176)" cx="51.88829" cy="42.595673" fx="51.88829" fy="42.595673" r="3.7925184"><stop offset="0" stop-color="#ffffff" stop-opacity="1"/><stop offset="1" stop-color="#d7551f" stop-opacity="0"/></radialGradient>
+    <radialGradient id="radialGradient101" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.4648738,0.04412454,-0.04523337,1.5016853,-62.923317,-55.588345)" cx="51.88829" cy="42.595673" fx="51.88829" fy="42.595673" r="3.7925184"><stop offset="0" stop-color="#d7551f" stop-opacity="0"/><stop offset="0.71096426" stop-color="#a63d17" stop-opacity="0"/><stop offset="1" stop-color="#370707" stop-opacity="1"/></radialGradient>
+    <radialGradient id="radialGradient102" gradientUnits="userSpaceOnUse" gradientTransform="translate(-40.728555,-31.929176)" cx="51.88829" cy="42.595673" fx="51.88829" fy="42.595673" r="3.7925184"><stop offset="0" stop-color="#ffffff" stop-opacity="1"/><stop offset="1" stop-color="#d7551f" stop-opacity="0"/></radialGradient>
+    <radialGradient id="radialGradient103" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.4648738,0.04412454,-0.04523337,1.5016853,-62.923317,-55.588345)" cx="51.88829" cy="42.595673" fx="51.88829" fy="42.595673" r="3.7925184"><stop offset="0" stop-color="#d7551f" stop-opacity="0"/><stop offset="0.71096426" stop-color="#a63d17" stop-opacity="0"/><stop offset="1" stop-color="#370707" stop-opacity="1"/></radialGradient>
+    <radialGradient id="radialGradient104" gradientUnits="userSpaceOnUse" gradientTransform="translate(-40.728555,-31.929176)" cx="51.88829" cy="42.595673" fx="51.88829" fy="42.595673" r="3.7925184"><stop offset="0" stop-color="#ffffff" stop-opacity="1"/><stop offset="1" stop-color="#d7551f" stop-opacity="0"/></radialGradient>
+    <radialGradient id="radialGradient105" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.4648738,0.04412454,-0.04523337,1.5016853,-62.923317,-55.588345)" cx="51.88829" cy="42.595673" fx="51.88829" fy="42.595673" r="3.7925184"><stop offset="0" stop-color="#d7551f" stop-opacity="0"/><stop offset="0.71096426" stop-color="#a63d17" stop-opacity="0"/><stop offset="1" stop-color="#370707" stop-opacity="1"/></radialGradient>
+  </defs>
+  <g id="layer1" transform="translate(-94.314616,-40.675849)">
+    <g id="g112">
+      <g id="g26" transform="matrix(0.14286867,1.1428687,-1.1428687,-0.14286867,175.82145,-14.657987)" stroke-width="0.881909">
+        <path d="M 65.815537,58.957619 71.85075,52.855797" id="path25" fill="none" stroke="#000000" stroke-width="0.881909" stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="none" stroke-opacity="1"/>
+        <path d="m 64.705618,57.8477 6.035213,-6.101822" id="path26" fill="none" stroke="#000000" stroke-width="0.881909" stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="none" stroke-opacity="1"/>
+      </g>
+      <path d="m 108.42218,52.00632 10.51328,0.01952" id="path27" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="none" stroke-opacity="1"/>
+      <path d="m 119.2505,52.275281 7.44781,-7.420206" id="path28" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="none" stroke-opacity="1"/>
+      <path d="m 108.47389,52.006416 0.0472,8.582182" id="path30" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="none" stroke-opacity="1"/>
+      <path d="m 98.179407,52.00632 10.513273,0.01952" id="path31" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="none" stroke-opacity="1"/>
+      <g id="g41" transform="translate(114.91371,32.634392)">
+        <g id="g40">
+          <circle id="circle33" cx="12.137496" cy="11.866474" r="3.7925184" opacity="1" fill="#d7301f" stroke="none" stroke-width="0.264999" stroke-opacity="1" paint-order="fill"/>
+          <circle id="circle34" cx="12.137496" cy="11.866474" r="3.7925184" opacity="1" fill="url(#radialGradient104)" stroke="none" stroke-width="0.264999" stroke-opacity="1" paint-order="fill"/>
+          <circle id="circle35" cx="12.137496" cy="11.866474" r="3.7925184" opacity="1" fill="url(#radialGradient105)" stroke="none" stroke-width="0.264999" stroke-opacity="1" paint-order="fill"/>
+          <circle id="circle36" cx="12.137496" cy="11.866474" r="3.7925184" opacity="1" fill="none" stroke="#643a3a" stroke-width="0.065" stroke-dasharray="none" stroke-opacity="1" paint-order="fill"/>
+        </g>
+        <text xml:space="preserve" x="9.7637072" y="13.967278" id="text40" font-style="normal" font-weight="normal" font-size="6.0769px" font-family="Arial" letter-spacing="0px" dominant-baseline="auto" white-space="normal" opacity="1" vector-effect="none" fill="#800026" fill-opacity="1" stroke-width="0.379806" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="0" stroke-opacity="1"><tspan id="tspan40" x="9.7637072" y="13.967278" font-style="normal" font-weight="normal" font-size="6.0769px" font-family="Arial" letter-spacing="0px" dominant-baseline="auto" white-space="normal" vector-effect="none" fill="#800026" fill-opacity="1" stroke-width="0.379806" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="0" stroke-opacity="1">O</tspan></text>
+      </g>
+      <path d="M 115.67227,68.883956 108.22446,61.46375" id="path41" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="none" stroke-opacity="1"/>
+      <g id="g45" transform="translate(103.63589,57.132397)">
+        <g id="g44">
+          <circle id="circle41" cx="12.137496" cy="11.866474" r="3.7925184" opacity="1" fill="#d7301f" stroke="none" stroke-width="0.264999" stroke-opacity="1" paint-order="fill"/>
+          <circle id="circle42" cx="12.137496" cy="11.866474" r="3.7925184" opacity="1" fill="url(#radialGradient102)" stroke="none" stroke-width="0.264999" stroke-opacity="1" paint-order="fill"/>
+          <circle id="circle43" cx="12.137496" cy="11.866474" r="3.7925184" opacity="1" fill="url(#radialGradient103)" stroke="none" stroke-width="0.264999" stroke-opacity="1" paint-order="fill"/>
+          <circle id="circle44" cx="12.137496" cy="11.866474" r="3.7925184" opacity="1" fill="none" stroke="#643a3a" stroke-width="0.065" stroke-dasharray="none" stroke-opacity="1" paint-order="fill"/>
+        </g>
+        <text xml:space="preserve" x="9.7637072" y="13.967278" id="text44" font-style="normal" font-weight="normal" font-size="6.0769px" font-family="Arial" letter-spacing="0px" dominant-baseline="auto" white-space="normal" opacity="1" vector-effect="none" fill="#800026" fill-opacity="1" stroke-width="0.379806" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="0" stroke-opacity="1"><tspan id="tspan44" x="9.7637072" y="13.967278" font-style="normal" font-weight="normal" font-size="6.0769px" font-family="Arial" letter-spacing="0px" dominant-baseline="auto" white-space="normal" vector-effect="none" fill="#800026" fill-opacity="1" stroke-width="0.379806" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="0" stroke-opacity="1">O</tspan></text>
+      </g>
+      <g id="g50" transform="translate(126.40417,46.566886)">
+        <g id="g49" transform="translate(-11.442716,0.67726699)">
+          <g id="g48">
+            <circle id="circle45" cx="12.137496" cy="11.866474" r="3.7925184" opacity="1" fill="#d7301f" stroke="none" stroke-width="0.264999" stroke-opacity="1" paint-order="fill"/>
+            <circle id="circle46" cx="12.137496" cy="11.866474" r="3.7925184" opacity="1" fill="url(#radialGradient100)" stroke="none" stroke-width="0.264999" stroke-opacity="1" paint-order="fill"/>
+            <circle id="circle47" cx="12.137496" cy="11.866474" r="3.7925184" opacity="1" fill="url(#radialGradient101)" stroke="none" stroke-width="0.264999" stroke-opacity="1" paint-order="fill"/>
+            <circle id="circle48" cx="12.137496" cy="11.866474" r="3.7925184" opacity="1" fill="none" stroke="#643a3a" stroke-width="0.065" stroke-dasharray="none" stroke-opacity="1" paint-order="fill"/>
+          </g>
+          <text xml:space="preserve" x="9.7637072" y="13.967278" id="text48" font-style="normal" font-weight="normal" font-size="6.0769px" font-family="Arial" letter-spacing="0px" dominant-baseline="auto" white-space="normal" opacity="1" vector-effect="none" fill="#800026" fill-opacity="1" stroke-width="0.379806" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="0" stroke-opacity="1"><tspan id="tspan48" x="9.7637072" y="13.967278" font-style="normal" font-weight="normal" font-size="6.0769px" font-family="Arial" letter-spacing="0px" dominant-baseline="auto" white-space="normal" vector-effect="none" fill="#800026" fill-opacity="1" stroke-width="0.379806" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="0" stroke-opacity="1">O</tspan></text>
+        </g>
+      </g>
+      <g id="g62" transform="translate(74.923773,39.912148)">
+        <g id="g61" transform="translate(-1.2151524,-0.5147327)">
+          <g id="g60" transform="translate(0.04190181,-0.67042889)">
+            <circle id="circle57" cx="24.389109" cy="13.051636" r="3.7925184" fill="#2c7fb8" stroke="none" stroke-width="0.264999" stroke-opacity="1" paint-order="fill"/>
+            <circle id="circle58" cx="24.389109" cy="13.051636" r="3.7925184" fill="url(#radialGradient98)" stroke="none" stroke-width="0.264999" stroke-opacity="1" paint-order="fill"/>
+            <circle id="circle59" cx="24.389109" cy="13.051636" r="3.7925184" fill="url(#radialGradient99)" stroke="none" stroke-width="0.264999" stroke-opacity="1" paint-order="fill"/>
+            <circle id="circle60" cx="24.389109" cy="13.051636" r="3.7925184" fill="none" stroke="#253494" stroke-width="0.065" stroke-dasharray="none" stroke-opacity="1" paint-order="fill"/>
+          </g>
+        </g>
+        <text xml:space="preserve" x="21.039391" y="14.041458" id="text61" font-style="normal" font-weight="normal" font-size="6.0769px" font-family="Arial" letter-spacing="0px" dominant-baseline="auto" white-space="normal" opacity="1" vector-effect="none" fill="#0c2c84" fill-opacity="1" stroke-width="0.379806" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="0" stroke-opacity="1"><tspan id="tspan61" x="21.039391" y="14.041458" font-style="normal" font-weight="normal" font-size="6.0769px" font-family="Arial" letter-spacing="0px" dominant-baseline="auto" white-space="normal" vector-effect="none" fill="#0c2c84" fill-opacity="1" stroke-width="0.379806" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="0" stroke-opacity="1">N</tspan></text>
+      </g>
+      <g id="g66" transform="matrix(0.90135413,0,0,0.90135413,87.163609,31.77982)" stroke-width="1.10944">
+        <g id="g65" transform="translate(-4.525395,-0.25141)" stroke-width="1.10944">
+          <circle id="circle62" cx="28.411682" cy="22.702364" r="3.7925184" fill="#999999" stroke="none" stroke-width="0.294001" stroke-opacity="1" paint-order="fill"/>
+          <circle id="circle63" cx="28.411682" cy="22.702364" r="3.7925184" fill="url(#radialGradient96)" stroke="none" stroke-width="0.294001" stroke-opacity="1" paint-order="fill"/>
+          <circle id="circle64" cx="28.411682" cy="22.702364" r="3.7925184" fill="url(#radialGradient97)" stroke="none" stroke-width="0.294001" stroke-opacity="1" paint-order="fill"/>
+          <circle id="circle65" cx="28.411682" cy="22.702364" r="3.7925184" fill="none" stroke="#666666" stroke-width="0.0721137" stroke-dasharray="none" stroke-opacity="1" paint-order="fill"/>
+        </g>
+        <text xml:space="preserve" x="21.390978" y="24.625938" id="text65" font-style="normal" font-weight="normal" font-size="6.0769px" font-family="Arial" letter-spacing="0px" dominant-baseline="auto" white-space="normal" opacity="1" vector-effect="none" fill="#252525" fill-opacity="1" stroke-width="0.421373" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="0" stroke-opacity="1"><tspan id="tspan65" x="21.390978" y="24.625938" font-style="normal" font-weight="normal" font-size="6.0769px" font-family="Arial" letter-spacing="0px" dominant-baseline="auto" white-space="normal" vector-effect="none" fill="#252525" fill-opacity="1" stroke-width="0.421373" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="0" stroke-opacity="1">C</tspan></text>
+      </g>
+      <g id="g70" transform="matrix(0.90135413,0,0,0.90135413,86.967461,41.486691)" stroke-width="1.10944">
+        <g id="g69" transform="translate(-4.525395,-0.25141)" stroke-width="1.10944">
+          <circle id="circle66" cx="28.411682" cy="22.702364" r="3.7925184" fill="#999999" stroke="none" stroke-width="0.294001" stroke-opacity="1" paint-order="fill"/>
+          <circle id="circle67" cx="28.411682" cy="22.702364" r="3.7925184" fill="url(#radialGradient94)" stroke="none" stroke-width="0.294001" stroke-opacity="1" paint-order="fill"/>
+          <circle id="circle68" cx="28.411682" cy="22.702364" r="3.7925184" fill="url(#radialGradient95)" stroke="none" stroke-width="0.294001" stroke-opacity="1" paint-order="fill"/>
+          <circle id="circle69" cx="28.411682" cy="22.702364" r="3.7925184" fill="none" stroke="#666666" stroke-width="0.0721137" stroke-dasharray="none" stroke-opacity="1" paint-order="fill"/>
+        </g>
+        <text xml:space="preserve" x="21.390978" y="24.625938" id="text69" font-style="normal" font-weight="normal" font-size="6.0769px" font-family="Arial" letter-spacing="0px" dominant-baseline="auto" white-space="normal" opacity="1" vector-effect="none" fill="#252525" fill-opacity="1" stroke-width="0.421373" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="0" stroke-opacity="1"><tspan id="tspan69" x="21.390978" y="24.625938" font-style="normal" font-weight="normal" font-size="6.0769px" font-family="Arial" letter-spacing="0px" dominant-baseline="auto" white-space="normal" vector-effect="none" fill="#252525" fill-opacity="1" stroke-width="0.421373" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="0" stroke-opacity="1">C</tspan></text>
+      </g>
+      <g id="g86" transform="matrix(0.90135413,0,0,0.90135413,97.406381,31.77982)" stroke-width="1.10944">
+        <g id="g85" transform="translate(-4.525395,-0.25141)" stroke-width="1.10944">
+          <circle id="circle82" cx="28.411682" cy="22.702364" r="3.7925184" fill="#999999" stroke="none" stroke-width="0.294001" stroke-opacity="1" paint-order="fill"/>
+          <circle id="circle83" cx="28.411682" cy="22.702364" r="3.7925184" fill="url(#radialGradient86)" stroke="none" stroke-width="0.294001" stroke-opacity="1" paint-order="fill"/>
+          <circle id="circle84" cx="28.411682" cy="22.702364" r="3.7925184" fill="url(#radialGradient87)" stroke="none" stroke-width="0.294001" stroke-opacity="1" paint-order="fill"/>
+          <circle id="circle85" cx="28.411682" cy="22.702364" r="3.7925184" fill="none" stroke="#666666" stroke-width="0.0721137" stroke-dasharray="none" stroke-opacity="1" paint-order="fill"/>
+        </g>
+        <text xml:space="preserve" x="21.390978" y="24.625938" id="text85" font-style="normal" font-weight="normal" font-size="6.0769px" font-family="Arial" letter-spacing="0px" dominant-baseline="auto" white-space="normal" opacity="1" vector-effect="none" fill="#252525" fill-opacity="1" stroke-width="0.421373" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="0" stroke-opacity="1"><tspan id="tspan85" x="21.390978" y="24.625938" font-style="normal" font-weight="normal" font-size="6.0769px" font-family="Arial" letter-spacing="0px" dominant-baseline="auto" white-space="normal" vector-effect="none" fill="#252525" fill-opacity="1" stroke-width="0.421373" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="0" stroke-opacity="1">C</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

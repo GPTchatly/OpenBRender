@@ -1,0 +1,26 @@
+OpenBRender 0.1.0 local release
+
+This source distribution includes OpenBioFigure by Voldigoade and contributors,
+licensed under Apache-2.0. Upstream source:
+https://github.com/Voldigoade/openbiofigure
+Pinned commit: 8f72679efc26c821737cc3adb2ddca033150f06e
+
+OpenBRender (formerly OpenRender) changes include bounded project validation, an explicit SVG policy,
+local import/export validation, untrusted provenance handling, a static browser
+entry point, hosting headers, and browser validation fixtures. Original file headers
+and license notices are retained. See docs/upstream-source.lock.json for the public upstream revision.
+
+Scientific artwork and fonts have separate licenses. 583 pinned Bioicons drawings
+(296 CC0 and 287 CC BY 4.0) are included in app/public-browser/artwork, with
+creator, source, original and normalized integrity evidence recorded in
+app/src/assets/packs/library-manifest.json. See docs/ARTWORK_LIBRARY.md and
+docs/audit/artwork-inventory.json. Servier art is not distributed.
+Bundled Barlow, IBM Plex and STIX Two Text fonts retain their SIL OFL notices in
+app/public-browser/licenses.
+
+The app and audit harness include DOMPurify 3.4.14 under its retained dual
+Apache-2.0 or MPL-2.0 license. See vendor/dompurify/LICENSE and UPSTREAM.json.
+
+Fabric 7.4.0 is vendored under MIT from the pinned official v740 browser
+distribution. See vendor/fabric/LICENSE and UPSTREAM.json. Other bundled
+dependency notices are included with the local distribution.

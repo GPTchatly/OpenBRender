@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "skipLibCheck": true
+    ,"resolveJsonModule": true
+  },
+  "include": [
+    "app/src/domain/project/schema.ts",
+    "app/src/domain/project/migrations.ts",
+    "app/src/domain/export/exporters.ts",
+    "app/src/domain/templates/templates.ts",
+    "app/src/domain/scientific/elements.ts",
+    "app/src/assets/catalog.ts",
+    "app/src/platform/desktopFiles.ts"
+  ]
+}

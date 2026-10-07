@@ -1,0 +1,46 @@
+<svg width="32.817295mm" height="39.489727mm" viewBox="0 0 32.817295 39.489727" version="1.1" id="svg1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+
+  <defs id="defs1">
+    <linearGradient id="linearGradient36">
+      <stop offset="0" id="stop36" stop-color="#000000" stop-opacity="1"/>
+      <stop offset="1" id="stop37" stop-color="#b30000" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient34">
+      <stop offset="0" id="stop34" stop-color="#000000" stop-opacity="1"/>
+      <stop offset="1" id="stop35" stop-color="#b30000" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient32">
+      <stop offset="0" id="stop32" stop-color="#084594" stop-opacity="1"/>
+      <stop offset="1" id="stop33" stop-color="#000000" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient33" x1="35.893353" y1="44.796352" x2="39.249138" y2="48.161144" gradientUnits="userSpaceOnUse" gradientTransform="translate(10.184365,0.13206906)"><stop offset="0" stop-color="#084594" stop-opacity="1"/><stop offset="1" stop-color="#000000" stop-opacity="1"/></linearGradient>
+    <linearGradient id="linearGradient35" x1="44.088905" y1="47.407818" x2="48.910381" y2="47.407818" gradientUnits="userSpaceOnUse" gradientTransform="translate(10.184365,0.13206906)"><stop offset="0" stop-color="#000000" stop-opacity="1"/><stop offset="1" stop-color="#b30000" stop-opacity="1"/></linearGradient>
+    <linearGradient id="linearGradient37" x1="44.241104" y1="46.103848" x2="44.241718" y2="40.863335" gradientUnits="userSpaceOnUse" gradientTransform="translate(10.184365,0.13206906)"><stop offset="0" stop-color="#000000" stop-opacity="1"/><stop offset="1" stop-color="#b30000" stop-opacity="1"/></linearGradient>
+    <linearGradient id="linearGradient1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(19.660462,-11.026161,98.363793)" x1="44.088905" y1="47.407818" x2="48.910381" y2="47.407818"><stop offset="0" stop-color="#000000" stop-opacity="1"/><stop offset="1" stop-color="#b30000" stop-opacity="1"/></linearGradient>
+  </defs>
+  <g id="layer1" transform="translate(-37.836249,-35.625373)">
+    <g id="g1">
+      <path id="path10-2" d="m 46.758718,44.247421 -1.361998,1.361997 0.181386,0.12848 1.308506,-1.308506 z m 0.30591,0.434406 -1.234373,1.234374 0.181027,0.128107 1.181172,-1.181173 z m 0.30591,0.434405 -1.10675,1.10675 0.181027,0.128108 1.05355,-1.05355 z m 0.30591,0.434406 -0.979126,0.979126 0.18102,0.128114 0.925929,-0.925929 z m 0.30591,0.434405 -0.851793,0.851793 0.181021,0.128115 0.798593,-0.798593 z m 0.305911,0.434406 -0.72417,0.72417 0.181027,0.128107 0.670966,-0.670966 z m 0.30591,0.434406 -0.596837,0.596836 0.181028,0.128107 0.543636,-0.543636 z m 0.30591,0.434405 -0.469213,0.469213 0.21483,0.152039 0.405838,-0.405838 z m 0.329545,0.468506 -0.331706,0.331706 0.181027,0.128107 0.2785,-0.278501 z m 0.30591,0.434405 -0.204083,0.204082 0.181027,0.128108 0.150877,-0.150877 z m 0.30591,0.434405 -0.07675,0.07675 0.09544,0.06753 0.04855,-0.04855 z" fill="url(#linearGradient33)" stroke="none" stroke-width="1" stroke-linejoin="round" paint-order="fill"/>
+      <path d="m 49.832443,48.887701 4.668973,-2.695632" id="path7-0-2-8" fill="none" stroke="#000000" stroke-width="0.305001" stroke-linecap="butt" stroke-linejoin="round" paint-order="fill"/>
+      <path d="M 53.100991,58.364597 49.878452,54.042445" id="path7-0-2-8-8" fill="none" stroke="#000000" stroke-width="0.305001" stroke-linecap="butt" stroke-linejoin="round" paint-order="fill"/>
+      <path d="m 54.349522,46.192069 4.668973,2.695634" id="path7-0-2-8-6" fill="none" stroke="url(#linearGradient35)" stroke-width="0.305001" stroke-linecap="butt" stroke-linejoin="round" paint-order="fill"/>
+      <path id="path4-1" d="m 54.687807,40.995403 v 5.391266 m -0.523448,0 1e-6,-5.391266" fill="none" stroke="url(#linearGradient37)" stroke-width="0.305001" stroke-linecap="butt" stroke-linejoin="round" paint-order="fill"/>
+      <text xml:space="preserve" x="37.622738" y="43.883965" id="text26-9" font-size="2.66628px" font-family="Arial" letter-spacing="0px" fill="#43a2ca" stroke-width="0.264583"><tspan id="tspan26-8" x="37.622738" y="43.883965" fill="#43a2ca" stroke-width="0.264583">H</tspan></text>
+      <text xml:space="preserve" x="43.288033" y="37.533951" id="text26-9-3-3" font-size="2.66628px" font-family="Arial" letter-spacing="0px" fill="#43a2ca" stroke-width="0.264583"><tspan id="tspan26-8-7-3" x="43.288033" y="37.533951" fill="#43a2ca" stroke-width="0.264583">H</tspan></text>
+      <text xml:space="preserve" x="59.186424" y="51.147148" id="text28-4" font-size="4.23333px" font-family="Arial" letter-spacing="0px" fill="#b30000" stroke-width="0.264583"><tspan id="tspan28-8" x="59.186424" y="51.147148" fill="#b30000" stroke-width="0.264583">O</tspan></text>
+      <text xml:space="preserve" x="52.781326" y="40.207386" id="text28-4-3" font-size="4.23333px" font-family="Arial" letter-spacing="0px" fill="#b30000" stroke-width="0.264583"><tspan id="tspan28-8-4" x="52.781326" y="40.207386" fill="#b30000" stroke-width="0.264583">O</tspan></text>
+      <text xml:space="preserve" x="42.68681" y="44.247421" id="text29-4" font-size="4.23333px" font-family="Arial" letter-spacing="0px" fill="#084594" stroke-width="0.264583"><tspan id="tspan29-2" x="42.68681" y="44.247421" fill="#084594" stroke-width="0.264583">N</tspan></text>
+      <path d="m 40.288833,42.929676 1.76089,10e-7" id="path30-9" fill="none" stroke="#43a2ca" stroke-width="0.305001" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" paint-order="fill"/>
+      <text xml:space="preserve" x="66.127785" y="50.585251" id="text26-9-35" font-size="2.66628px" font-family="Arial" letter-spacing="0px" fill="#43a2ca" stroke-width="0.264583"><tspan id="tspan26-8-0" x="66.127785" y="50.585251" fill="#43a2ca" stroke-width="0.264583">H</tspan></text>
+      <path d="m 63.241888,49.630963 1.76089,10e-7" id="path30-9-2" fill="none" stroke="#43a2ca" stroke-width="0.305001" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" paint-order="fill"/>
+      <path d="m 58.545042,67.678028 3.489851,4.109342" id="path7-0-2-8-6-6" fill="none" stroke="url(#linearGradient1)" stroke-width="0.305001" stroke-linecap="butt" stroke-linejoin="round" paint-order="fill"/>
+      <text xml:space="preserve" x="62.001492" y="75.063423" id="text28-4-8" font-size="4.23333px" font-family="Arial" letter-spacing="0px" fill="#b30000" stroke-width="0.264583"><tspan id="tspan28-8-8" x="62.001492" y="75.063423" fill="#b30000" stroke-width="0.264583">O</tspan></text>
+      <text xml:space="preserve" x="68.942856" y="74.501526" id="text26-9-35-5" font-size="2.66628px" font-family="Arial" letter-spacing="0px" fill="#43a2ca" stroke-width="0.264583"><tspan id="tspan26-8-0-0" x="68.942856" y="74.501526" fill="#43a2ca" stroke-width="0.264583">H</tspan></text>
+      <path d="m 66.056958,73.547227 1.76089,10e-7" id="path30-9-2-9" fill="none" stroke="#43a2ca" stroke-width="0.305001" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" paint-order="fill"/>
+      <path d="m 44.202995,40.259064 v -1.76089" id="path30-9-4" fill="none" stroke="#43a2ca" stroke-width="0.305001" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" paint-order="fill"/>
+      <path d="M 49.908694,54.161122 V 48.769856" id="path7-0" fill="none" stroke="#000000" stroke-width="0.305001" stroke-linecap="butt" stroke-linejoin="round" paint-order="fill"/>
+      <path id="path3" d="m 46.470975,32.652344 -20.376438,-10e-7 -10.188218,-17.646513 10.18822,-17.6465128 20.376438,1e-6 10.188218,17.6465138 z" transform="matrix(0.26458333,0,0,0.26458333,46.249597,59.038762)" fill="none" stroke="#000000" stroke-width="1.15276" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" paint-order="fill"/>
+      <ellipse id="path1-0-8" cx="55.855968" cy="63.022495" rx="3.3163397" ry="3.3203478" fill="none" stroke="#88419d" stroke-width="0.2" stroke-linecap="butt" stroke-linejoin="round" stroke-dasharray="0.2, 0.4" stroke-dashoffset="0.38" paint-order="fill"/>
+    </g>
+  </g>
+</svg>

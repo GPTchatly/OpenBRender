@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.0.0",
+  "metadata": {
+    "id": "f16327aa-aedc-4842-881c-02f42729b1cd",
+    "title": "M0 fixture: cell-schematic",
+    "createdAt": "2026-10-07T11:38:27.111Z",
+    "updatedAt": "2026-10-07T11:38:27.111Z",
+    "applicationVersion": "0.2.0"
+  },
+  "document": {
+    "width": 1200,
+    "height": 800,
+    "unit": "px",
+    "background": "#ffffff",
+    "preset": "journal"
+  },
+  "objects": [
+    {
+      "id": "705b1f6b-04a6-41f0-8868-234b6c1d52e2",
+      "name": "Editable cell",
+      "x": 600,
+      "y": 400,
+      "width": 260,
+      "height": 190,
+      "scaleX": 1,
+      "scaleY": 1,
+      "angle": 0,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "fill": null,
+      "stroke": null,
+      "strokeWidth": 0,
+      "kind": "group",
+      "children": [
+        {
+          "id": "6106bf47-dc23-441e-b8d0-b5f01dad240c",
+          "name": "Cell membrane",
+          "x": 0,
+          "y": 0,
+          "width": 250,
+          "height": 180,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "opacity": 1,
+          "visible": true,
+          "locked": false,
+          "fill": "#edf9f9",
+          "stroke": "#087f8c",
+          "strokeWidth": 2,
+          "kind": "ellipse"
+        },
+        {
+          "id": "c52f4457-6376-454d-94aa-63ca7d214356",
+          "name": "Nucleus",
+          "x": -35,
+          "y": -12,
+          "width": 78,
+          "height": 68,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "opacity": 1,
+          "visible": true,
+          "locked": false,
+          "fill": "#c8e8eb",
+          "stroke": "#087f8c",
+          "strokeWidth": 2,
+          "kind": "ellipse"
+        },
+        {
+          "id": "dade2a4d-b122-4193-b93a-1a08b447cdc5",
+          "name": "Organelle 1",
+          "x": 58,
+          "y": -38,
+          "width": 50,
+          "height": 20,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "opacity": 1,
+          "visible": true,
+          "locked": false,
+          "fill": "#f8dca8",
+          "stroke": "#087f8c",
+          "strokeWidth": 2,
+          "kind": "ellipse"
+        },
+        {
+          "id": "262109a9-dd8c-4c9b-817a-830ab1975049",
+          "name": "Organelle 2",
+          "x": 68,
+          "y": 34,
+          "width": 58,
+          "height": 22,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "opacity": 1,
+          "visible": true,
+          "locked": false,
+          "fill": "#f8dca8",
+          "stroke": "#087f8c",
+          "strokeWidth": 2,
+          "kind": "ellipse"
+        },
+        {
+          "id": "927c7995-d48e-4c6c-8e3d-f470cf23eb8c",
+          "name": "Vesicle",
+          "x": -78,
+          "y": 45,
+          "width": 22,
+          "height": 22,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "opacity": 1,
+          "visible": true,
+          "locked": false,
+          "fill": "#d9c9ec",
+          "stroke": "#087f8c",
+          "strokeWidth": 2,
+          "kind": "ellipse"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "settings": {
+    "grid": {
+      "enabled": false,
+      "size": 20,
+      "snap": false
+    },
+    "locale": "en"
+  }
+}

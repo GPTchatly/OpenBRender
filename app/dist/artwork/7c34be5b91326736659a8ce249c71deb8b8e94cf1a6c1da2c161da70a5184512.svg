@@ -1,0 +1,19 @@
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 177.02 128.35">
+  <defs>
+    
+  </defs>
+  <g id="Layer_1-2">
+    <path d="M3.55,1.33v123.42" stroke="#231f20" stroke-miterlimit="10" fill="#fff" stroke-width=".85px"/>
+    <polygon points="3.55 .05 .05 6.11 7.05 6.11 3.55 .05" stroke-width=".05px" fill="#231f20" stroke="#231f20" stroke-miterlimit="10"/>
+    <path d="M175.96,124.25H3.55" stroke="#231f20" stroke-miterlimit="10" fill="#fff"/>
+    <polygon points="176.96 124.25 169.96 120.21 169.96 128.29 176.96 124.25" fill="#231f20" stroke="#231f20" stroke-miterlimit="10" stroke-width=".06px"/>
+    <rect x="48.46" y="35.8" width="9.23" height="86.71" stroke="#231f20" stroke-miterlimit="10" fill="#a7a9ac" stroke-width=".11px"/>
+    <rect x="28.57" y="42.7" width="9.23" height="79.81" stroke="#231f20" stroke-miterlimit="10" fill="#a7a9ac" stroke-width=".1px"/>
+    <rect x="147.88" y="37.59" width="9.23" height="84.92" stroke="#231f20" stroke-miterlimit="10" fill="#a7a9ac" stroke-width=".11px"/>
+    <rect x="128" y="114.64" width="9.23" height="7.87" stroke="#231f20" stroke-miterlimit="10" fill="#ed1c24" stroke-width=".03px"/>
+    <rect x="108.11" y="44.56" width="9.23" height="77.95" stroke="#231f20" stroke-miterlimit="10" fill="#a7a9ac" stroke-width=".1px"/>
+    <rect x="88.23" y="19.37" width="9.23" height="103.14" stroke="#231f20" stroke-miterlimit="10" stroke-width=".12px" fill="#a7a9ac"/>
+    <rect x="68.34" y="49.26" width="9.23" height="73.24" stroke="#231f20" stroke-miterlimit="10" fill="#a7a9ac" stroke-width=".1px"/>
+    <rect x="8.69" y="28.11" width="9.23" height="94.4" stroke="#231f20" stroke-miterlimit="10" fill="#a7a9ac" stroke-width=".11px"/>
+  </g>
+</svg>
