@@ -1,0 +1,9 @@
+{
+  "name": "fabric",
+  "version": "7.4.0",
+  "type": "module",
+  "license": "MIT",
+  "exports": { ".": { "types": "./types/fabric.d.ts", "import": "./dist/index.min.mjs" } },
+  "types": "./types/fabric.d.ts",
+  "files": ["dist/index.min.mjs", "types", "LICENSE", "UPSTREAM.json"]
+}
