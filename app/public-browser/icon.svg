@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>OpenBRender</title>
+  <rect width="64" height="64" rx="4" fill="#f3f5f5"/>
+  <rect x="9" y="9" width="46" height="46" fill="#ffffff" stroke="#18233a" stroke-width="3.6"/>
+  <path d="M31.5 55V38.5H55M31.5 46.8H55M43.2 38.5V55" fill="none" stroke="#18233a" stroke-width="2.6"/>
+  <path d="M17.5 18.5h16" fill="none" stroke="#2b87cc" stroke-width="3"/>
+</svg>
