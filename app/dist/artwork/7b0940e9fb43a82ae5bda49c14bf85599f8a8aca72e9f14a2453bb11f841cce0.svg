@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500">
+  <defs>
+    
+  </defs>
+  
+  <g>
+    <g id="Layer_1">
+      <g id="generic_immune_cell">
+        <g id="cell_membrane">
+          <circle cx="250" cy="250" r="171.47" fill="#f9d8c9" stroke="#5b433b" stroke-miterlimit="10" stroke-width="2.98px"/>
+        </g>
+        <path d="M305.7,396.81c-51.04,8.42-99.41-26.25-107.83-77.29-8.42-51.04,26.25-99.41,77.28-107.83,51.04-8.42,99.41,26.25,107.83,77.28,8.42,51.04-26.25,99.41-77.29,107.84Z" fill="#d79580"/>
+      </g>
+    </g>
+  </g>
+</svg>

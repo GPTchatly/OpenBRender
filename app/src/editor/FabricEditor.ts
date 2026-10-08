@@ -8,9 +8,9 @@ import {
   Line,
   Rect,
   Triangle,
-  loadSVGFromString,
   util,
 } from "fabric";
+import { drawingGroup, loadDrawingParts } from "./svgDrawing";
 import type { ProjectAsset } from "../domain/assets/schema";
 import { sanitizeSvg, isSafePaint } from "../domain/assets/sanitize";
 import { bakeArtworkPaint, createArtworkVariant } from "../domain/assets/artwork";
@@ -259,10 +259,7 @@ async function objectFromProject(
   else if (value.kind === "svg") {
     const asset = assets.find((candidate) => candidate.id === value.assetId);
     if (!asset) throw new Error(`Missing project asset ${value.assetId}.`);
-    const parsed = await loadSVGFromString(sanitizeSvg(asset.svg).svg);
-    object = new Group(
-      parsed.objects.filter((item): item is FabricObject => Boolean(item)),
-    );
+    object = drawingGroup(await loadDrawingParts(sanitizeSvg(asset.svg).svg));
     (object as ManagedObject).obfAssetId = value.assetId;
     if (value.fill !== null) applySvgPaint(object, {fill: value.fill});
     if (value.stroke !== null) applySvgPaint(object, {stroke: value.stroke});
@@ -507,13 +504,11 @@ export class FabricEditor {
       return accepted;
     };
     asset = validateInsertion();
-    const parsed = await loadSVGFromString(sanitizeSvg(asset.svg).svg);
+    const parts = await loadDrawingParts(sanitizeSvg(asset.svg).svg);
     if (generation !== this.#documentGeneration) return false;
     asset = validateInsertion(); // Concurrent edits must still fit the document budget.
-    if (!parsed.objects.some(Boolean)) throw new InputError("empty_asset", "This SVG has no supported visible geometry.");
-    const object = new Group(
-      parsed.objects.filter((item): item is FabricObject => Boolean(item)),
-    );
+    if (!parts.length) throw new InputError("empty_asset", "This SVG has no supported visible geometry.");
+    const object = drawingGroup(parts);
     const max = 220;
     const scale = Math.min(max / Math.max(object.width, object.height), 1);
     const target = point ?? this.center();
@@ -597,11 +592,10 @@ export class FabricEditor {
     };
     assertCurrent();
     const variant = createArtworkVariant(target.asset, svg);
-    const parsed = await loadSVGFromString(variant.svg);
+    const parts = await loadDrawingParts(variant.svg);
     assertCurrent();
-    const parts = parsed.objects.filter((item): item is FabricObject => Boolean(item));
     if (!parts.length) throw new InputError("empty_asset", "Keep at least one drawable part in the artwork.");
-    const replacement = new Group(parts);
+    const replacement = drawingGroup(parts);
     if (replacement.width <= 0 || replacement.height <= 0) throw new InputError("empty_asset", "The artwork must have a nonzero width and height.");
     // Fit the edited artwork to the existing placed size. Store the new native
     // bounds so reloading cannot stretch the group's box independently of its parts.

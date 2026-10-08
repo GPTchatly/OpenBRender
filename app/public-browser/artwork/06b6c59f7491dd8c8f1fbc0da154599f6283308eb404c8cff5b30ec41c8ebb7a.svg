@@ -1,0 +1,60 @@
+<svg id="Graph0002" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500">
+  
+  <defs>
+    
+  </defs>
+  <rect x="144.36" y="376.067" width="45.709" height="24.308" fill="#274922"/>
+  <rect x="193.496" y="376.067" width="45.709" height="24.308" fill="#2b6431"/>
+  <rect x="242.631" y="376.067" width="45.709" height="24.308" fill="#274922"/>
+  <rect x="291.767" y="376.067" width="45.709" height="24.308" fill="#274922"/>
+  <rect x="340.902" y="376.067" width="45.709" height="24.308" fill="#2b6431"/>
+  <rect x="144.36" y="348.417" width="45.709" height="24.308" fill="#2b6431"/>
+  <rect x="193.496" y="348.417" width="45.709" height="24.308" fill="#2b6431"/>
+  <rect x="242.631" y="348.417" width="45.709" height="24.308" fill="#d61f27"/>
+  <rect x="291.767" y="348.417" width="45.709" height="24.308" fill="#eeae2e"/>
+  <rect x="340.902" y="348.417" width="45.709" height="24.308" fill="#d66b27"/>
+  <rect x="144.36" y="320.766" width="45.709" height="24.308" fill="#274922"/>
+  <rect x="193.496" y="320.766" width="45.709" height="24.308" fill="#2b6431"/>
+  <rect x="242.631" y="320.766" width="45.709" height="24.308" fill="#274922"/>
+  <rect x="291.767" y="320.766" width="45.709" height="24.308" fill="#eeae2e"/>
+  <rect x="340.902" y="320.766" width="45.709" height="24.308" fill="#d66b27"/>
+  <rect x="144.36" y="293.115" width="45.709" height="24.308" fill="#274922"/>
+  <rect x="193.496" y="293.115" width="45.709" height="24.308" fill="#eeae2e"/>
+  <rect x="242.631" y="293.115" width="45.709" height="24.308" fill="#537334"/>
+  <rect x="291.767" y="293.115" width="45.709" height="24.308" fill="#eeae2e"/>
+  <rect x="340.902" y="293.115" width="45.709" height="24.308" fill="#d66b27"/>
+  <rect x="144.36" y="265.464" width="45.709" height="24.308" fill="#eeae2e"/>
+  <rect x="193.496" y="265.464" width="45.709" height="24.308" fill="#d45227"/>
+  <rect x="242.631" y="265.464" width="45.709" height="24.308" fill="#2f8b43"/>
+  <rect x="291.767" y="265.464" width="45.709" height="24.308" fill="#eeae2e"/>
+  <rect x="340.902" y="265.464" width="45.709" height="24.308" fill="#d66b27"/>
+  <rect x="144.36" y="237.814" width="45.709" height="24.308" fill="#d61f27"/>
+  <rect x="193.496" y="237.814" width="45.709" height="24.308" fill="#d61f27"/>
+  <rect x="242.631" y="237.814" width="45.709" height="24.308" fill="#ec9331"/>
+  <rect x="291.767" y="237.814" width="45.709" height="24.308" fill="#da9a28"/>
+  <rect x="340.902" y="237.814" width="45.709" height="24.308" fill="#ec9331"/>
+  <rect x="144.36" y="210.163" width="45.709" height="24.308" fill="#d61f27"/>
+  <rect x="193.496" y="210.163" width="45.709" height="24.308" fill="#d61f27"/>
+  <rect x="242.631" y="210.163" width="45.709" height="24.308" fill="#eeae2e"/>
+  <rect x="291.767" y="210.163" width="45.709" height="24.308" fill="#db9127"/>
+  <rect x="340.902" y="210.163" width="45.709" height="24.308" fill="#58893d"/>
+  <rect x="144.36" y="182.512" width="45.709" height="24.308" fill="#d61f27"/>
+  <rect x="193.496" y="182.512" width="45.709" height="24.308" fill="#d45227"/>
+  <rect x="242.631" y="182.512" width="45.709" height="24.308" fill="#ec9331"/>
+  <rect x="291.767" y="182.512" width="45.709" height="24.308" fill="#d66b27"/>
+  <rect x="340.902" y="182.512" width="45.709" height="24.308" fill="#274922"/>
+  <rect x="144.36" y="154.861" width="45.709" height="24.308" fill="#d66b27"/>
+  <rect x="193.496" y="154.861" width="45.709" height="24.308" fill="#838735"/>
+  <rect x="242.631" y="154.861" width="45.709" height="24.308" fill="#eeae2e"/>
+  <rect x="291.767" y="154.861" width="45.709" height="24.308" fill="#ecc72f"/>
+  <rect x="340.902" y="154.861" width="45.709" height="24.308" fill="#ecc72f"/>
+  <rect x="144.36" y="127.21" width="45.709" height="24.308" fill="#d45227"/>
+  <rect x="193.496" y="127.21" width="45.709" height="24.308" fill="#d66b27"/>
+  <rect x="242.631" y="127.21" width="45.709" height="24.308" fill="#ec9331"/>
+  <rect x="291.767" y="127.21" width="45.709" height="24.308" fill="#d61f27"/>
+  <rect x="340.902" y="127.21" width="45.709" height="24.308" fill="#58893d"/>
+  <polyline points="139.865 276.736 127.845 276.734 127.845 389.669 139.865 389.669" fill="none" stroke="#020202" stroke-miterlimit="10" stroke-width="3.368px"/>
+  <polyline points="140.38 195.896 113.389 195.896 113.389 333.69 127.538 333.69" fill="none" stroke="#020202" stroke-miterlimit="10" stroke-width="3.368px"/>
+  <polyline points="215.197 124.073 215.197 111.773 263.794 111.773 263.795 124.073" fill="none" stroke="#020202" stroke-miterlimit="10" stroke-width="3.368px"/>
+  <polyline points="314.543 124.073 314.544 97.624 239.495 97.624 239.495 111.465" fill="none" stroke="#020202" stroke-miterlimit="10" stroke-width="3.368px"/>
+</svg>

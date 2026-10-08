@@ -9,13 +9,15 @@ export const seedCatalog: AssetMetadata[] = pack.map(record => {
   void fingerprint; void verified; void evidence;
   return metadata;
 });
+// The library renders whole category shelves, so lookups must not scan the pack per card.
+const packById = new Map(pack.map(record => [record.id, record]));
 export function getSeedAssetUrl(asset: AssetMetadata): string {
-  const record = pack.find(candidate => candidate.id === asset.id);
+  const record = packById.get(asset.id);
   if (!record) throw new InputError("missing_asset", "This asset is not in the local pack.");
   return "/artwork/" + record.integrity.slice(7).toLowerCase() + ".svg";
 }
 export async function getSeedSvg(asset: AssetMetadata): Promise<string> {
-  const record = pack.find(candidate => candidate.id === asset.id);
+  const record = packById.get(asset.id);
   if (!record) throw new InputError("missing_asset", "This asset is not in the local pack.");
   // The URL is derived exclusively from the application-owned manifest, never
   // from a document's source URL or caller-provided filename.

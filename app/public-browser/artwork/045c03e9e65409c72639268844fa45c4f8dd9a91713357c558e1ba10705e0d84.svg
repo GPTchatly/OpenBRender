@@ -1,0 +1,44 @@
+<svg id="Graph0003" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+  
+  <defs>
+    
+    <clipPath id="clippath">
+      <rect x="143.527" y="116.072" width="61.607" height="284.598" fill="#c7c8ca"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect x="220.759" y="116.072" width="61.607" height="284.598" fill="#c7c8ca"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect x="297.991" y="116.072" width="61.607" height="284.598" fill="#c7c8ca"/>
+    </clipPath>
+  </defs>
+  <g>
+    <rect x="143.527" y="116.072" width="61.607" height="284.598" fill="#c7c8ca"/>
+    <g clip-path="url(#clippath)">
+      <rect x="138.17" y="103.348" width="73.661" height="70.982" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.586px"/>
+      <rect x="138.17" y="168.304" width="73.661" height="87.053" fill="#a7a9ac"/>
+      <rect x="138.17" y="241.295" width="73.661" height="54.911" fill="#2379be"/>
+      <rect x="138.17" y="294.196" width="73.661" height="63.616" fill="#84b4db"/>
+      <rect x="138.17" y="355.134" width="73.661" height="63.616" fill="#8dc63f"/>
+    </g>
+  </g>
+  <g>
+    <rect x="220.759" y="116.072" width="61.607" height="284.598" fill="#c7c8ca"/>
+    <g clip-path="url(#clippath-1)">
+      <rect x="215.402" y="103.348" width="73.661" height="70.982" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.586px"/>
+      <rect x="215.402" y="159.598" width="73.661" height="95.759" fill="#a7a9ac"/>
+      <rect x="215.402" y="226.116" width="73.661" height="117.411" fill="#c2b59b"/>
+      <rect x="215.402" y="339.062" width="73.661" height="79.687" fill="#8dc63f"/>
+    </g>
+  </g>
+  <g>
+    <rect x="297.991" y="116.072" width="61.607" height="284.598" fill="#c7c8ca"/>
+    <g clip-path="url(#clippath-2)">
+      <rect x="292.634" y="103.348" width="73.661" height="70.982" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.586px"/>
+      <rect x="292.634" y="166.964" width="73.661" height="102.678" fill="#a7a9ac"/>
+      <rect x="292.634" y="263.839" width="73.661" height="57.143" fill="#f7941d"/>
+      <rect x="292.634" y="315.178" width="73.661" height="103.571" fill="#8dc63f"/>
+    </g>
+  </g>
+  <polyline points="119.42 99.331 119.42 400.446 380.58 400.446" stroke-width="3.368px" fill="none" stroke="#000" stroke-miterlimit="10"/>
+</svg>

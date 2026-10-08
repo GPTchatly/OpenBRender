@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500">
+  <defs>
+    
+  </defs>
+  
+  <g>
+    <g id="PedigreeDiagram0001">
+      <g id="lines">
+        <line x1="219.58" y1="132.44" x2="311.53" y2="132.44" fill="none" stroke="#678389" stroke-miterlimit="10" stroke-width="3.18px"/>
+        <line x1="259.3" y1="343.76" x2="259.3" y2="132.44" fill="none" stroke="#678389" stroke-miterlimit="10" stroke-width="3.18px"/>
+        <polyline points="377.15 338.15 377.15 253.1 143.6 253.1 143.6 346.35" fill="none" stroke="#678389" stroke-miterlimit="10" stroke-width="3.18px"/>
+      </g>
+      <rect x="231.88" y="326.39" width="58.28" height="58.28" fill="red"/>
+      <rect x="173.6" y="103.3" width="58.28" height="58.28" fill="red"/>
+      <rect x="116.61" y="327.02" width="58.28" height="58.28" fill="#00acec"/>
+      <circle cx="320.17" cy="132.44" r="30" fill="red"/>
+      <circle cx="380.31" cy="355.96" r="30" fill="#00acec"/>
+    </g>
+  </g>
+  </svg>

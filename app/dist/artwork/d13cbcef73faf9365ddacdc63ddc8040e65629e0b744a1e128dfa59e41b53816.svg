@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500">
+  <defs>
+    
+  </defs>
+  
+  <g>
+    <g id="Layer_1">
+      <g>
+        <line x1="119.28" y1="283.15" x2="91.87" y2="290.64" stroke-width="6.83px" stroke-miterlimit="10" fill="none" stroke="#625b69"/>
+        <circle cx="81.5" cy="295.4" r="20.93" stroke-miterlimit="10" fill="#f0f3c4" stroke="#57544d" stroke-width="3.42px"/>
+      </g>
+      <rect id="IP3" x="112.47" y="153.74" width="298.53" height="173.06" rx="25.96" ry="25.96" transform="translate(-60.3 90.18) rotate(-17.56)" fill="#90c0e7" stroke="#10333f" stroke-width="6.83px" stroke-miterlimit="10"/>
+    </g>
+  </g>
+</svg>

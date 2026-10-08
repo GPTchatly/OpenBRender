@@ -58,7 +58,6 @@ import {
   type AppPreferences,
 } from "./domain/preferences/preferences";
 import { createTemplateProject } from "./domain/templates/templates";
-import { buildPublicationReport } from "./domain/publication/preflight";
 import {
   IndexedDbProjectStorage,
   type RecentProject,
@@ -586,16 +585,6 @@ export function App() {
       );
     }
   });
-  const exportPublicationReport = () => runExport(async () => {
-    const contents = buildPublicationReport(project);
-    const filename = `${safeFileStem(project.metadata.title)}-publication-report.md`;
-    if (
-      !(await saveDesktopTextFile(contents, filename, [
-        { name: "Markdown", extensions: ["md"] },
-      ]))
-    )
-      makeDownload(contents, "text/markdown", filename);
-  });
 
   const openDesktopProject = async () => {
     const file = await openDesktopTextFile([
@@ -806,10 +795,10 @@ export function App() {
           },
           {
             id: "command-publication-check",
-            label: "Open publication check",
-            description: "Review provenance, licensing, and attribution",
+            label: "Open license and credits",
+            description: "See each drawing's license and any credit it requires",
             group: "View" as const,
-            keywords: ["license", "provenance", "attribution", "ready"],
+            keywords: ["license", "provenance", "attribution", "credit"],
             run: () => setTab("licensing"),
           },
           {
@@ -1113,7 +1102,6 @@ export function App() {
           getEditor={() => editorRef.current}
           onTabChange={setTab}
           onExportAttributions={(format) => void exportAttributions(format)}
-          onExportPublicationReport={() => void exportPublicationReport()}
           onEditArtwork={openArtworkEditor}
         />
       </div>

@@ -1,10 +1,37 @@
 // Maintainer ingestion only. Private imports retain the stricter runtime grammar.
 // Never render original XML. These conversions are followed by strictSvg validation.
+const SVG_NS = 'http://www.w3.org/2000/svg', XLINK_NS = 'http://www.w3.org/1999/xlink', XML_NS = 'http://www.w3.org/XML/1998/namespace';
+function unprefixedSvg(source) {
+  const doc = source.implementation.createDocument(SVG_NS, 'svg', null);
+  const copy = (from, to) => {
+    for (const attr of from.attributes) {
+      if (attr.name === 'xmlns' || attr.prefix === 'xmlns') continue;
+      if (attr.namespaceURI === XLINK_NS) to.setAttributeNS(XLINK_NS, 'xlink:' + attr.localName, attr.value);
+      else if (attr.namespaceURI === XML_NS) to.setAttributeNS(XML_NS, 'xml:' + attr.localName, attr.value);
+      else if (attr.namespaceURI) throw new Error('Unsupported attribute namespace.');
+      else to.setAttribute(attr.name, attr.value);
+    }
+    for (const node of from.childNodes) {
+      // Non-SVG elements keep their namespace, so the usual removal or rejection still applies.
+      if (node.nodeType === 1 && node.namespaceURI === SVG_NS) copy(node, to.appendChild(doc.createElementNS(SVG_NS, node.localName)));
+      else to.appendChild(doc.importNode(node, true));
+    }
+  };
+  if ([...source.querySelectorAll('*')].some(el => [...el.attributes].some(attr => attr.namespaceURI === XLINK_NS)))
+    doc.documentElement.setAttributeNS('http://www.w3.org/2000/xmlns/', 'xmlns:xlink', XLINK_NS);
+  copy(source.documentElement, doc.documentElement);
+  return doc;
+}
 export function normalizeLibrarySvg(raw) {
   if (new TextEncoder().encode(raw).length > 2_000_000 || /<!|<\?(?!xml\s)/i.test(raw.replace(/<!--[\s\S]*?-->/g,'')))
     throw new Error('Unsupported XML declaration or source size.');
-  const doc = new DOMParser().parseFromString(raw,'image/svg+xml');
+  let doc = new DOMParser().parseFromString(raw,'image/svg+xml');
   if (doc.querySelector('parsererror') || doc.documentElement.localName !== 'svg') throw new Error('Invalid source XML.');
+  const changes = new Set();
+  // Before any check reads attribute names: ElementTree exports write SVG as "ns0:svg" and xlink as "ns1:href".
+  if ([...doc.querySelectorAll('*')].some(el => el.prefix && el.namespaceURI === SVG_NS)) {
+    doc = unprefixedSvg(doc); changes.add('XML namespace prefixes normalized');
+  }
   const elements = [...doc.querySelectorAll('*')];
   if (elements.length > 10000) throw new Error('Source element budget exceeded.');
   for (const element of elements) {
@@ -16,7 +43,6 @@ export function normalizeLibrarySvg(raw) {
       if (['href','xlink:href'].includes(attr.name) && !/^#[^\s()]+$/.test(attr.value)) throw new Error('External reference.');
     }
   }
-  const changes = new Set();
   const rules = [];
   for (const sheet of doc.querySelectorAll('style')) {
     const css = sheet.textContent.replace(/\/\*[\s\S]*?\*\//g,'');
@@ -40,7 +66,7 @@ export function normalizeLibrarySvg(raw) {
       const key=declaration.slice(0,split).trim(),value=declaration.slice(split+1).trim();
       if (/[!{}@\\]/.test(value)) throw new Error('Unsupported CSS value.');
       if(key.startsWith('-inkscape-')){changes.add('Non-rendering editor metadata removed');continue;}
-      if(inertDefaults.has(key)&&value==='normal'||key==='word-spacing'&&/^0(?:px)?$/.test(value)||key==='enable-background'&&/^new(?: [\d. ]+)?$/.test(value)){
+      if(inertDefaults.has(key)&&/^normal$/i.test(value)||key==='word-spacing'&&/^0(?:px)?$/.test(value)||key==='enable-background'&&/^new(?: [\d. ]+)?$/.test(value)){
         changes.add('Default authoring presentation metadata removed');continue;
       }
       if(key==='line-height'&&/^(?:\d+(?:\.\d+)?%?)$/.test(value)) {changes.add('SVG 1.1 authoring line-height metadata removed');continue;}
@@ -53,8 +79,15 @@ export function normalizeLibrarySvg(raw) {
     const classes=(element.getAttribute('class')||'').split(/\s+/);
     for(const rule of rules)if(rule.selectors.some(c=>classes.includes(c)))declarations(rule.declarations,values);
     declarations(element.getAttribute('style')||'',values);
-    for(const [key,value] of values)element.setAttribute(key,value);
+    const compositing=[];
+    for(const [key,value] of values){
+      // Browsers apply compositing only as CSS, so it stays in the style attribute.
+      if(!['mix-blend-mode','isolation'].includes(key))element.setAttribute(key,value);
+      else if(['normal','auto'].includes(value))changes.add('Default authoring presentation metadata removed');
+      else compositing.push(key+': '+value);
+    }
     if(element.hasAttribute('style')){element.removeAttribute('style');changes.add('Inline styles expanded into presentation attributes');}
+    if(compositing.length)element.setAttribute('style',compositing.join('; '));
     for(const attr of [...element.attributes]){
       if(attr.name==='class'||attr.name==='data-name'||attr.name==='aria-label'){element.removeAttributeNode(attr);changes.add('Non-rendering editor metadata removed');}
       else if(attr.name.endsWith('opacity') && /^\.\d+$/.test(attr.value)){attr.value='0'+attr.value;changes.add('Numeric presentation syntax normalized');}
@@ -81,13 +114,13 @@ export function normalizeLibrarySvg(raw) {
     'writing-mode':['lr-tb','horizontal-tb'], 'text-decoration-line':['none'], 'text-decoration-style':['solid'],
     'background-color':['#ffffff00','transparent'], 'isolation':['auto'], 'direction':['ltr'], 'block-progression':['tb'],
     'text-orientation':['mixed'], 'unicode-bidi':['normal'],
-    'baseline-shift':['baseline','0','0px'],
+    'baseline-shift':['baseline','0','0px'], 'word-spacing':['0','0px','normal'],
   };
   for(const el of doc.querySelectorAll('*')){
     for(const [name,values] of Object.entries(defaults))if(values.includes(el.getAttribute(name))){el.removeAttribute(name);changes.add('Default authoring presentation metadata removed');}
     // Decoration color has no rendering effect when no decoration is requested.
     if(el.hasAttribute('text-decoration-color')&&!el.hasAttribute('text-decoration-line')&&(!el.hasAttribute('text-decoration')||el.getAttribute('text-decoration')==='none')){el.removeAttribute('text-decoration-color');changes.add('Default authoring presentation metadata removed');}
-    for(const name of inertDefaults)if(el.getAttribute(name)==='normal'){el.removeAttribute(name);changes.add('Default authoring presentation metadata removed');}
+    for(const name of inertDefaults)if(/^normal$/i.test(el.getAttribute(name)??'')){el.removeAttribute(name);changes.add('Default authoring presentation metadata removed');}
     for(const name of ['x','y','width','height','rx','ry'])if((el===doc.documentElement&&['x','y'].includes(name))||(['path','g','defs'].includes(el.localName)&&el.hasAttribute(name))){if(el.hasAttribute(name)){el.removeAttribute(name);changes.add('Non-rendering authoring geometry attributes removed');}}
   }
   function resolveColor(el,inherited='black'){

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500">
+  <defs>
+    
+  </defs>
+  
+  <g>
+    <g id="Cytokines">
+      <circle cx="284.14" cy="301.8" r="28.43" fill="#84b7e3" stroke="#000" stroke-miterlimit="10" stroke-width="4.62px"/>
+      <circle cx="230.83" cy="246.36" r="28.43" fill="#84b7e3" stroke="#000" stroke-miterlimit="10" stroke-width="4.62px"/>
+      <circle cx="183.81" cy="381.04" r="28.43" fill="#84b7e3" stroke="#000" stroke-miterlimit="10" stroke-width="4.62px"/>
+      <circle cx="371.09" cy="261.53" r="28.43" fill="#84b7e3" stroke="#000" stroke-miterlimit="10" stroke-width="4.62px"/>
+      <circle cx="262.71" cy="108.52" r="28.43" fill="#84b7e3" stroke="#000" stroke-miterlimit="10" stroke-width="4.62px"/>
+      <circle cx="152.17" cy="321.47" r="20.14" fill="#84b7e3" stroke="#000" stroke-miterlimit="10" opacity="0.55" stroke-width="3.08px"/>
+      <circle cx="314.94" cy="211.3" r="20.14" fill="#84b7e3" stroke="#000" stroke-miterlimit="10" opacity="0.55" stroke-width="3.08px"/>
+      <circle cx="254.37" cy="175.44" r="20.14" fill="#84b7e3" stroke="#000" stroke-miterlimit="10" opacity="0.55" stroke-width="3.08px"/>
+      <circle cx="150.04" cy="173.63" r="20.14" fill="#84b7e3" stroke="#000" stroke-miterlimit="10" opacity="0.55" stroke-width="3.08px"/>
+      <circle cx="381.13" cy="140.95" r="20.14" fill="#84b7e3" stroke="#000" stroke-miterlimit="10" opacity="0.55" stroke-width="3.08px"/>
+      <circle cx="425.28" cy="199.6" r="11.69" opacity="0.34" stroke-width="1.79px" fill="#84b7e3" stroke="#000" stroke-miterlimit="10"/>
+      <circle cx="116.89" cy="254.59" r="11.69" opacity="0.34" stroke-width="1.79px" fill="#84b7e3" stroke="#000" stroke-miterlimit="10"/>
+      <circle cx="79.43" cy="380.49" r="11.69" opacity="0.34" stroke-width="1.79px" fill="#84b7e3" stroke="#000" stroke-miterlimit="10"/>
+      <circle cx="172.67" cy="261.76" r="11.69" opacity="0.34" stroke-width="1.79px" fill="#84b7e3" stroke="#000" stroke-miterlimit="10"/>
+      <circle cx="363.12" cy="332.68" r="11.69" opacity="0.34" stroke-width="1.79px" fill="#84b7e3" stroke="#000" stroke-miterlimit="10"/>
+      <circle cx="223.96" cy="336.4" r="20.14" fill="#84b7e3" stroke="#000" stroke-miterlimit="10" opacity="0.55" stroke-width="3.08px"/>
+    </g>
+  </g>
+  </svg>

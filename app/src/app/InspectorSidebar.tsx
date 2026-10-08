@@ -22,7 +22,6 @@ interface InspectorSidebarProps {
   getEditor: () => FabricEditor | null;
   onTabChange: (tab: InspectorTab) => void;
   onExportAttributions: (format: "markdown" | "text") => void;
-  onExportPublicationReport: () => void;
   onEditArtwork: () => void;
 }
 
@@ -37,7 +36,6 @@ export function InspectorSidebar({
   getEditor,
   onTabChange,
   onExportAttributions,
-  onExportPublicationReport,
   onEditArtwork,
 }: InspectorSidebarProps) {
   return (
@@ -99,11 +97,7 @@ export function InspectorSidebar({
         />
       )}
       {tab === "licensing" && (
-        <LicensingPanel
-          project={project}
-          onDownload={onExportAttributions}
-          onDownloadReport={onExportPublicationReport}
-        />
+        <LicensingPanel project={project} onDownload={onExportAttributions} />
       )}
     </aside>
   );

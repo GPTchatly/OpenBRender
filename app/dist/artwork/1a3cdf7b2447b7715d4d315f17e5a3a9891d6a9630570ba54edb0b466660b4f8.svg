@@ -1,0 +1,10 @@
+<svg id="Male_Symbol" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 288">
+  <defs>
+    
+  </defs>
+  <circle cx="133.73" cy="152.75" r="42.94" fill="none" stroke="#414141" stroke-miterlimit="10" stroke-width="9.79px"/>
+  <g>
+    <line x1="195.07" y1="88.67" x2="162.63" y2="121.11" fill="none" stroke="#414141" stroke-miterlimit="10" stroke-width="9.79px"/>
+    <polygon points="170.98 86.14 171.14 90.75 193.82 89.92 192.99 112.6 197.59 112.76 198.6 85.14 170.98 86.14" fill="#414141"/>
+  </g>
+</svg>

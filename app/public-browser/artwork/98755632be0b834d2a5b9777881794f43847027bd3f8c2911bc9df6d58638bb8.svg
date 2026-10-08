@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500">
+  <defs>
+    
+  </defs>
+  
+  <g>
+    <g id="Layer_1">
+      <g>
+        <line x1="385.29" y1="250" x2="114.71" y2="250" fill="none" stroke="#061838" stroke-miterlimit="10" stroke-width="26.36px"/>
+        <polygon points="375.67 217.14 432.58 250 375.67 282.86 375.67 217.14" fill="#061838"/>
+        <polygon points="124.33 217.14 67.42 250 124.33 282.86 124.33 217.14" fill="#061838"/>
+      </g>
+    </g>
+  </g>
+  </svg>

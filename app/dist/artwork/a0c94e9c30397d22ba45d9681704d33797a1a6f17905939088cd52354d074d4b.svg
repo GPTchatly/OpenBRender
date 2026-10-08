@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500">
+  
+  <defs>
+    
+  </defs>
+  <g style="isolation: isolate">
+    <g id="Graph0001">
+      <line x1="99.947" y1="99.587" x2="99.947" y2="400.413" fill="none" stroke="#1d1716" stroke-miterlimit="10" stroke-width="3.368px"/>
+      <line x1="99.947" y1="400.413" x2="400.053" y2="400.413" fill="none" stroke="#1d1716" stroke-miterlimit="10" stroke-width="3.368px"/>
+      <ellipse cx="139.243" cy="226.771" rx="16.724" ry="16.764" fill="#73aac9"/>
+      <ellipse cx="163.493" cy="221.742" rx="16.724" ry="16.764" fill="#73aac9" style="mix-blend-mode: multiply"/>
+      <ellipse cx="178.545" cy="184.861" rx="16.724" ry="16.764" fill="#73aac9" style="mix-blend-mode: multiply"/>
+      <ellipse cx="263.219" cy="182.346" rx="16.724" ry="16.764" fill="#9086bf"/>
+      <ellipse cx="278.688" cy="166.839" rx="16.724" ry="16.764" fill="#9086bf" style="mix-blend-mode: multiply"/>
+      <ellipse cx="275.344" cy="199.529" rx="16.724" ry="16.764" fill="#9086bf" style="mix-blend-mode: multiply"/>
+      <ellipse cx="317.99" cy="245.631" rx="16.724" ry="16.764" fill="#f19e78"/>
+      <ellipse cx="199.868" cy="323.584" rx="16.724" ry="16.764" fill="#b9507f" style="mix-blend-mode: multiply"/>
+      <ellipse cx="170.601" cy="358.789" rx="16.724" ry="16.764" fill="#b9507f" style="mix-blend-mode: multiply"/>
+      <ellipse cx="209.066" cy="340.348" rx="16.724" ry="16.764" fill="#b9507f" style="mix-blend-mode: multiply"/>
+      <ellipse cx="244.187" cy="370.524" rx="16.724" ry="16.764" fill="#b9507f" style="mix-blend-mode: multiply"/>
+      <ellipse cx="357.709" cy="205.816" rx="16.724" ry="16.764" fill="#f19e78"/>
+      <ellipse cx="361.89" cy="190.728" rx="16.724" ry="16.764" fill="#f19e78" style="mix-blend-mode: multiply"/>
+    </g>
+  </g>
+</svg>

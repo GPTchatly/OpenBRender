@@ -19,7 +19,13 @@ const COMMON = ["id", "transform", "style", "opacity", "fill", "fill-opacity", "
   "stroke-miterlimit", "stroke-dasharray", "stroke-dashoffset", "clip-path", "clip-rule",
   "font-family", "font-size", "font-weight", "font-style", "text-anchor", "dominant-baseline",
   "letter-spacing", "text-decoration", "text-decoration-thickness", "visibility", "display", "vector-effect", "paint-order", "white-space"];
+// Compositing is CSS-only: browsers ignore it as an SVG presentation attribute.
+const STYLE_ONLY = ["mix-blend-mode", "isolation"];
+export const BLEND_MODES = ["normal", "multiply", "screen", "overlay", "darken", "lighten", "color-dodge", "color-burn",
+  "hard-light", "soft-light", "difference", "exclusion", "hue", "saturation", "color", "luminosity"];
 const TEXT_ELEMENTS = new Set(["text", "tspan", "title", "desc", "metadata"]);
+const DRAWABLE_ELEMENTS = new Set(["path", "circle", "polygon", "polyline", "ellipse", "rect", "line", "text"]);
+const DEFINITION_ELEMENTS = new Set(["defs", "clipPath", "metadata", "desc"]);
 const NUMERIC = new Set(["x", "y", "dx", "dy", "x1", "x2", "y1", "y2", "cx", "cy", "fx", "fy",
   "r", "rx", "ry", "fr", "width", "height", "pathLength", "textLength", "offset", "font-size",
   "stroke-width", "stroke-dashoffset", "stroke-miterlimit", "letter-spacing", "text-decoration-thickness"]);
@@ -35,6 +41,7 @@ const ENUMS: Record<string, string[]> = {
   spreadMethod: ["pad", "reflect", "repeat"], lengthAdjust: ["spacing", "spacingAndGlyphs"],
   "xml:space": ["default", "preserve"],
   "white-space": ["normal", "pre", "pre-wrap"],
+  "mix-blend-mode": BLEND_MODES, isolation: ["auto", "isolate"],
 };
 
 export interface SanitizeResult {
@@ -232,6 +239,7 @@ function inspectSvg(document: Document): { elements: number; pathCommands: numbe
     return value;
   };
   let pathCommands = 0;
+  const commandsByElement = new Map<Element, number>();
   let textLength = 0;
   for (const element of elements) {
     if (!Object.hasOwn(ELEMENT_ATTRIBUTES, element.localName)) reject("SVG contains an unsupported element: " + element.localName.slice(0,80));
@@ -242,7 +250,8 @@ function inspectSvg(document: Document): { elements: number; pathCommands: numbe
       if (element === root || element.localName === "clipPath")
         reject("SVG root or nested clipping is unsupported by the renderer.");
       for (let parent = element.parentElement; parent; parent = parent.parentElement) {
-        if (parent.localName === "clipPath" || (clippingOf(parent) && clippingOf(parent) !== "none"))
+        // A clipped group with clipped content is clipped as a group (editor/svgDrawing.ts).
+        if (parent.localName === "clipPath" || (clippingOf(parent) && clippingOf(parent) !== "none" && parent.localName !== "g"))
           reject("SVG nested clipping is unsupported by the renderer.");
       }
     }
@@ -271,11 +280,13 @@ function inspectSvg(document: Document): { elements: number; pathCommands: numbe
           const property = declaration.slice(0, split).trim();
           const value = declaration.slice(split + 1).trim();
           const stopPresentation = element.localName === "stop" && ["stop-color", "stop-opacity"].includes(property);
-          if (split < 1 || (!COMMON.includes(property) && !stopPresentation) || ["id", "style", "transform"].includes(property)) reject();
+          if (split < 1 || (!COMMON.includes(property) && !stopPresentation && !STYLE_ONLY.includes(property)) || ["id", "style", "transform"].includes(property)) reject();
           validateProperty(property, value, element, refs);
         }
       } else if (name === "d") {
-        pathCommands += countPathCommands(attribute.value);
+        const commands = countPathCommands(attribute.value);
+        commandsByElement.set(element, commands);
+        pathCommands += commands;
         if (pathCommands > INPUT_LIMITS.pathCommands) reject("SVG path commands exceed the supported limit.");
       } else validateProperty(name, attribute.value, element, refs);
     }
@@ -302,7 +313,48 @@ function inspectSvg(document: Document): { elements: number; pathCommands: numbe
     done.add(element);
   };
   for (const element of elements) visit(element, 0);
-  return { elements: elements.length, pathCommands };
+
+  // Fabric copies every clipping drawable for each referencing drawable,
+  // including references inherited from groups. Charge copies before rendering;
+  // the cycle-check cache above must not deduplicate their allocation cost.
+  const clipMetrics = new Map<Element, { elements: number; pathCommands: number }>();
+  let expandedElements = elements.length;
+  const clipTarget = (clipping: string) =>
+    ids.get(/^url\(#([A-Za-z_][A-Za-z0-9_.-]{0,127})\)$/.exec(clipping)![1]!)!; // Local references were validated above.
+  const charges: Element[] = [];
+  for (const element of elements) {
+    if (!DRAWABLE_ELEMENTS.has(element.localName) && element.localName !== "g") continue;
+    let clipping = clippingOf(element);
+    let inDefinition = false;
+    for (let parent = element.parentElement; parent; parent = parent.parentElement) {
+      if (DEFINITION_ELEMENTS.has(parent.localName)) inDefinition = true;
+      if (!clipping && element.localName !== "g") clipping = clippingOf(parent);
+    }
+    if (inDefinition || !clipping || clipping === "none") continue;
+    if (element.localName !== "g") charges.push(clipTarget(clipping));
+    // A clipped group with clipped content is also clipped once as a group.
+    else if (Array.from(element.querySelectorAll("*")).some(child => (clippingOf(child) ?? "none") !== "none")) {
+      if (clipTarget(clipping).getAttribute("clipPathUnits") === "objectBoundingBox")
+        reject("SVG nested clipping is unsupported by the renderer.");
+      charges.push(clipTarget(clipping));
+    }
+  }
+  for (const target of charges) {
+    let cost = clipMetrics.get(target);
+    if (!cost) {
+      const drawables = Array.from(target.querySelectorAll("*")).filter(child => DRAWABLE_ELEMENTS.has(child.localName));
+      cost = {
+        elements: drawables.length + (drawables.length > 1 ? 1 : 0),
+        pathCommands: drawables.reduce((total, child) => total + (commandsByElement.get(child) ?? 0), 0),
+      };
+      clipMetrics.set(target, cost);
+    }
+    expandedElements += cost.elements;
+    pathCommands += cost.pathCommands;
+    if (expandedElements > INPUT_LIMITS.documentVectorElements || pathCommands > INPUT_LIMITS.documentPathCommands)
+      throw new InputError("vector_limit", "Expanded artwork exceeds the project vector budget.");
+  }
+  return { elements: expandedElements, pathCommands };
 }
 
 export function sanitizeSvg(svg: string, domWindow: SanitizerWindow = globalThis): SanitizeResult {

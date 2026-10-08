@@ -35,9 +35,6 @@ export function NewDocumentDialog({
   const [height, setHeight] = useState<number>(
     DOCUMENT_PRESETS[initialPreset].height,
   );
-  const [templateId, setTemplateId] = useState<FigureTemplateId>(
-    "experimental-workflow",
-  );
   const presetOptions: {
     id: DocumentPreset;
     label: string;
@@ -52,11 +49,15 @@ export function NewDocumentDialog({
     { id: "custom", label: "Custom", width, height },
   ];
 
-  const updatePreset = (next: DocumentPreset) => {
+  // A click opens the chosen format or template at once; the second click of a
+  // double-click is ignored so it cannot open a second figure.
+  const updatePreset = (next: DocumentPreset, clicks: number) => {
     setPreset(next);
     if (next !== "custom") {
       setWidth(DOCUMENT_PRESETS[next].width);
       setHeight(DOCUMENT_PRESETS[next].height);
+      if (clicks < 2)
+        onCreate(next, DOCUMENT_PRESETS[next].width, DOCUMENT_PRESETS[next].height);
     }
   };
 
@@ -124,7 +125,7 @@ export function NewDocumentDialog({
                 <button
                   type="button"
                   className={`preset-card${preset === id ? " is-selected" : ""}`}
-                  onClick={() => updatePreset(id)}
+                  onClick={(event) => updatePreset(id, event.detail)}
                   key={id}
                 >
                   <span
@@ -177,9 +178,10 @@ export function NewDocumentDialog({
             {FIGURE_TEMPLATES.map((template) => (
               <button
                 type="button"
-                className={`template-choice${templateId === template.id ? " is-selected" : ""}`}
-                aria-pressed={templateId === template.id}
-                onClick={() => setTemplateId(template.id)}
+                className="template-choice"
+                onClick={(event) => {
+                  if (event.detail < 2) onCreateTemplate(template.id);
+                }}
                 key={template.id}
               >
                 <span
@@ -206,18 +208,16 @@ export function NewDocumentDialog({
           <button type="button" className="button" onClick={onClose}>
             Cancel
           </button>
-          <button
-            type="button"
-            className="button primary"
-            onClick={() =>
-              mode === "blank"
-                ? onCreate(preset, width, height)
-                : onCreateTemplate(templateId)
-            }
-            disabled={mode === "blank" && (!width || !height)}
-          >
-            {mode === "blank" ? "Create figure" : "Use template"}
-          </button>
+          {mode === "blank" && (
+            <button
+              type="button"
+              className="button primary"
+              onClick={() => onCreate(preset, width, height)}
+              disabled={!width || !height}
+            >
+              Create figure
+            </button>
+          )}
         </div>
       </section>
     </div>

@@ -1,0 +1,282 @@
+<svg id="MEA_x5F_24_x5F_Well_x5F_Plate0001" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+  
+  <defs>
+    
+    <clipPath id="clippath">
+      <path d="M97.126,267.37l-2.518-10.801c-.068-.293-.071-.598-.006-.892l.658-3.018-3.669-3.244c-.442-.391-.758-.903-.91-1.474l-3.359-12.672c-.336-1.268.205-2.605,1.329-3.282l185.537-111.769c.579-.349,1.24-.539,1.916-.552l14.862-.282c1.013-.019,2.017.198,2.931.633l109.634,52.224c.557.266,1.012.707,1.292,1.257l6.465,12.665-1.512,10.962,1.988,1.637c.759.625,1.131,1.605.978,2.576l-1.854,11.783c-.108.687-.445,1.317-.955,1.79l-177.179,163.916c-2.526,2.337-6.409,2.39-8.998.124l-125.713-110.052c-.458-.401-.779-.936-.917-1.529Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <path d="M97.126,267.37l-2.518-10.801c-.068-.293-.071-.598-.006-.892l.658-3.018-3.669-3.244c-.442-.391-.758-.903-.91-1.474l-3.359-12.672c-.336-1.268.205-2.605,1.329-3.282l185.537-111.769c.579-.349,1.24-.539,1.916-.552l14.862-.282c1.013-.019,2.017.198,2.931.633l109.634,52.224c.557.266,1.012.707,1.292,1.257l6.465,12.665-1.512,10.962,1.988,1.637c.759.625,1.131,1.605.978,2.576l-1.854,11.783c-.108.687-.445,1.317-.955,1.79l-177.179,163.916c-2.526,2.337-6.409,2.39-8.998.124l-125.713-110.052c-.458-.401-.779-.936-.917-1.529Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <path d="M304.145,133.511c.778,5.285-11.95,10.053-20.682,10.308-11.161.326-18.193-2.611-18.171-7.626s9.091-9.155,20.257-9.246,17.933,2.067,18.596,6.565Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#3a3a3a"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <path d="M331.816,147.7c.775,5.985-10.065,10.813-21.23,10.904-11.165.091-18.191-2.977-18.166-8.655s9.097-10.356,20.262-10.447c11.165-.091,18.475,3.105,19.134,8.198Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#3a3a3a"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <path d="M362.036,162.446c.808,6.285-10.008,12.04-21.643,12.135-11.635.095-19.436-3.813-19.41-9.776s9.48-10.874,21.115-10.969c11.635-.095,19.252,3.261,19.939,8.61Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#3a3a3a"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <ellipse cx="374.344" cy="180.53" rx="22.193" ry="11.501" transform="translate(-2.283 4.813) rotate(-.734)" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#3a3a3a"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <path d="M278.818,149.629c.887,6.106-11.765,11.954-20.507,12.469-11.173.659-18.277-2.568-18.357-8.382-.08-5.813,8.92-10.84,20.103-11.228,11.182-.387,18.006,1.943,18.761,7.14Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#3a3a3a"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <path d="M306.824,165.377c.898,6.918-9.862,12.787-21.044,13.174-11.182.387-18.283-2.992-18.373-9.574-.091-6.583,8.901-12.233,20.084-12.62s18.569,3.133,19.334,9.02Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#3a3a3a"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <path d="M337.395,181.708c.937,7.264-9.78,14.208-21.433,14.611-11.653.404-19.547-3.93-19.642-10.842-.095-6.912,9.274-12.843,20.927-13.246,11.653-.404,19.351,3.295,20.148,9.477Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#3a3a3a"/>
+    </clipPath>
+    <clipPath id="clippath-9">
+      <ellipse cx="350.092" cy="202.359" rx="22.241" ry="13.33" transform="translate(-8.998 16.435) rotate(-2.655)" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#3a3a3a"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <path d="M248.966,167.153c1.035,6.808-12.021,13.489-21.105,14.169-11.612.87-19.061-2.65-19.251-9.14s9.082-12.211,20.708-12.778c11.626-.566,18.768,1.955,19.648,7.749Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#3a3a3a"/>
+    </clipPath>
+    <clipPath id="clippath-11">
+      <path d="M278.391,184.404c1.061,7.714-10.025,14.396-21.651,14.962-11.626.566-19.075-3.122-19.29-10.472s9.036-13.766,20.662-14.332,19.376,3.277,20.279,9.842Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#3a3a3a"/>
+    </clipPath>
+    <clipPath id="clippath-12">
+      <path d="M310.494,202.275c1.108,8.101-9.915,15.982-22.03,16.572-12.115.59-20.407-4.155-20.633-11.873-.226-7.717,9.413-14.452,21.529-15.042,12.115-.59,20.192,3.448,21.134,10.342Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#3a3a3a"/>
+    </clipPath>
+    <clipPath id="clippath-13">
+      <ellipse cx="324.082" cy="225.183" rx="23.138" ry="14.888" transform="translate(-13.412 20.648) rotate(-3.575)" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#3a3a3a"/>
+    </clipPath>
+    <clipPath id="clippath-14">
+      <path d="M218.725,185.816c1.026,7.457-11.882,14.642-20.865,15.301-11.482.842-18.851-3.078-19.041-10.179-.19-7.102,8.976-13.273,20.473-13.783s18.56,2.315,19.433,8.661Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#3a3a3a"/>
+    </clipPath>
+    <clipPath id="clippath-15">
+      <path d="M247.83,204.963c1.053,8.448-9.908,15.654-21.405,16.164-11.497.51-18.864-3.595-19.08-11.636-.215-8.041,8.93-14.974,20.427-15.484,11.497-.51,19.162,3.766,20.058,10.956Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#3a3a3a"/>
+    </clipPath>
+    <clipPath id="clippath-16">
+      <path d="M279.584,224.813c1.099,8.872-9.798,17.389-21.779,17.921-11.981.532-20.182-4.737-20.409-13.181-.226-8.444,9.303-15.72,21.283-16.252,11.981-.532,19.969,3.962,20.904,11.512Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#3a3a3a"/>
+    </clipPath>
+    <clipPath id="clippath-17">
+      <ellipse cx="293.03" cy="250" rx="22.877" ry="16.289" transform="translate(-15.024 18.766) rotate(-3.576)" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#3a3a3a"/>
+    </clipPath>
+    <clipPath id="clippath-18">
+      <path d="M186.153,206.724c.877,8.203-12.614,15.71-21.897,16.177-11.866.596-19.371-3.91-19.394-11.699-.023-7.79,9.582-14.292,21.455-14.524,11.873-.232,19.09,3.066,19.836,10.046Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#3a3a3a"/>
+    </clipPath>
+    <clipPath id="clippath-19">
+      <path d="M215.711,228.539c.88,9.29-10.602,16.875-22.475,17.107-11.873.232-19.373-4.477-19.399-13.297-.026-8.82,9.577-16.158,21.449-16.39,11.873-.232,19.675,4.674,20.424,12.58Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#3a3a3a"/>
+    </clipPath>
+    <clipPath id="clippath-20">
+      <path d="M247.985,251.2c.917,9.755-10.531,18.781-22.903,19.023-12.372.242-20.705-5.767-20.732-15.028-.028-9.262,9.979-16.966,22.351-17.207,12.372-.242,20.503,4.911,21.284,13.213Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#3a3a3a"/>
+    </clipPath>
+    <clipPath id="clippath-21">
+      <ellipse cx="261.243" cy="279.189" rx="23.606" ry="17.86" transform="translate(-11.404 11.126) rotate(-2.388)" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#3a3a3a"/>
+    </clipPath>
+    <clipPath id="clippath-22">
+      <path d="M151.517,230.736c.852,8.405-12.663,15.813-21.948,16.104-11.869.373-19.362-4.385-19.362-12.35s9.626-14.423,21.501-14.423,19.083,3.516,19.809,10.669Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#3a3a3a"/>
+    </clipPath>
+    <clipPath id="clippath-23">
+      <path d="M181.013,253.632c.852,9.517-10.654,17.044-22.529,17.044s-19.362-4.965-19.362-13.984,9.626-16.331,21.501-16.331,19.664,5.172,20.389,13.271Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#3a3a3a"/>
+    </clipPath>
+    <clipPath id="clippath-24">
+      <path d="M213.223,277.449c.888,9.993-10.588,18.994-22.963,18.994s-20.69-6.31-20.69-15.781,10.031-17.149,22.406-17.149,20.491,5.431,21.247,13.936Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#3a3a3a"/>
+    </clipPath>
+    <clipPath id="clippath-25">
+      <ellipse cx="226.398" cy="306.333" rx="23.602" ry="18.269" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#3a3a3a"/>
+    </clipPath>
+  </defs>
+  <g>
+    <path d="M97.126,267.37l-2.518-10.801c-.068-.293-.071-.598-.006-.892l.658-3.018-3.669-3.244c-.442-.391-.758-.903-.91-1.474l-3.359-12.672c-.336-1.268.205-2.605,1.329-3.282l185.537-111.769c.579-.349,1.24-.539,1.916-.552l14.862-.282c1.013-.019,2.017.198,2.931.633l109.634,52.224c.557.266,1.012.707,1.292,1.257l6.465,12.665-1.512,10.962,1.988,1.637c.759.625,1.131,1.605.978,2.576l-1.854,11.783c-.108.687-.445,1.317-.955,1.79l-177.179,163.916c-2.526,2.337-6.409,2.39-8.998.124l-125.713-110.052c-.458-.401-.779-.936-.917-1.529Z"/>
+    <g clip-path="url(#clippath)">
+      <path d="M88.865,246.832l135.366,115.07c1.166.991,2.883.971,4.026-.046l180.599-160.833c.29-.258.479-.61.534-.994l3.388-23.691" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+      <path d="M92.55,254.171l131.057,111.655c2.439,2.078,6.041,2.027,8.421-.119l178.427-160.934c1.344-1.212,2.432-2.681,3.199-4.321l7.115-15.201" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+      <path d="M84.613,232.651l138.624,114.194c1.365,1.124,3.343,1.097,4.676-.066l197.268-172.049" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+    </g>
+    <path d="M97.126,267.37l-2.518-10.801c-.068-.293-.071-.598-.006-.892l.658-3.018-3.669-3.244c-.442-.391-.758-.903-.91-1.474l-3.359-12.672c-.336-1.268.205-2.605,1.329-3.282l185.537-111.769c.579-.349,1.24-.539,1.916-.552l14.862-.282c1.013-.019,2.017.198,2.931.633l109.634,52.224c.557.266,1.012.707,1.292,1.257l6.465,12.665-1.512,10.962,1.988,1.637c.759.625,1.131,1.605.978,2.576l-1.854,11.783c-.108.687-.445,1.317-.955,1.79l-177.179,163.916c-2.526,2.337-6.409,2.39-8.998.124l-125.713-110.052c-.458-.401-.779-.936-.917-1.529Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+  </g>
+  <path d="M98.377,230.903l176.124-107.22c.589-.359,1.266-.548,1.956-.548h14.35c.435,0,.864.097,1.256.284l107.8,51.455c.395.189.689.54.806.962l2.346,8.53c.149.54-.028,1.117-.453,1.482l-174.783,150.023c-.876.752-2.165.77-3.062.043l-126.501-102.596c-.795-.645-.712-1.883.163-2.416Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#565656"/>
+  <g>
+    <g clip-path="url(#clippath-1)">
+      <polygon points="81.236 228.099 89.125 247.877 225.458 363.099 225.458 342.099 81.236 228.099" fill="#333"/>
+      <polygon points="90.236 252.321 86.458 261.544 225.218 379.922 225.235 366.831 90.236 252.321" fill="#333"/>
+      <path d="M88.865,246.832l135.366,115.07c1.166.991,2.883.971,4.026-.046l180.599-160.833c.29-.258.479-.61.534-.994l3.388-23.691" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+      <path d="M92.55,254.171l131.057,111.655c2.439,2.078,6.041,2.027,8.421-.119l178.427-160.934c1.344-1.212,2.432-2.681,3.199-4.321l7.115-15.201" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+      <path d="M425.18,174.73l-197.268,172.049c-1.333,1.162-3.311,1.19-4.676.066l-138.624-114.194,111.29-121.663,202.667,8.395,26.61,55.347Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="#565656"/>
+    </g>
+    <path d="M97.126,267.37l-2.518-10.801c-.068-.293-.071-.598-.006-.892l.658-3.018-3.669-3.244c-.442-.391-.758-.903-.91-1.474l-3.359-12.672c-.336-1.268.205-2.605,1.329-3.282l185.537-111.769c.579-.349,1.24-.539,1.916-.552l14.862-.282c1.013-.019,2.017.198,2.931.633l109.634,52.224c.557.266,1.012.707,1.292,1.257l6.465,12.665-1.512,10.962,1.988,1.637c.759.625,1.131,1.605.978,2.576l-1.854,11.783c-.108.687-.445,1.317-.955,1.79l-177.179,163.916c-2.526,2.337-6.409,2.39-8.998.124l-125.713-110.052c-.458-.401-.779-.936-.917-1.529Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+  </g>
+  <g>
+    <g>
+      <path d="M304.145,133.511c.778,5.285-11.95,10.053-20.682,10.308-11.161.326-18.193-2.611-18.171-7.626s9.091-9.155,20.257-9.246,17.933,2.067,18.596,6.565Z" fill="#3a3a3a"/>
+      <g clip-path="url(#clippath-2)">
+        <ellipse cx="287.356" cy="142.907" rx="7.683" ry="3.45" transform="translate(-1.607 3.278) rotate(-.652)" stroke-miterlimit="10" fill="#665640" stroke="#9b7b2c" stroke-dasharray="8 8" stroke-linecap="round" stroke-width="3px"/>
+      </g>
+      <path d="M304.145,133.511c.778,5.285-11.95,10.053-20.682,10.308-11.161.326-18.193-2.611-18.171-7.626s9.091-9.155,20.257-9.246,17.933,2.067,18.596,6.565Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+    </g>
+    <g>
+      <path d="M331.816,147.7c.775,5.985-10.065,10.813-21.23,10.904-11.165.091-18.191-2.977-18.166-8.655s9.097-10.356,20.262-10.447c11.165-.091,18.475,3.105,19.134,8.198Z" fill="#3a3a3a"/>
+      <g clip-path="url(#clippath-3)">
+        <ellipse cx="314.478" cy="157.576" rx="7.683" ry="3.907" transform="translate(-1.958 3.97) rotate(-.721)" stroke-miterlimit="10" fill="#665640" stroke="#9b7b2c" stroke-dasharray="8 8" stroke-linecap="round" stroke-width="3px"/>
+      </g>
+      <path d="M331.816,147.7c.775,5.985-10.065,10.813-21.23,10.904-11.165.091-18.191-2.977-18.166-8.655s9.097-10.356,20.262-10.447c11.165-.091,18.475,3.105,19.134,8.198Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+    </g>
+    <g>
+      <path d="M362.036,162.446c.808,6.285-10.008,12.04-21.643,12.135-11.635.095-19.436-3.813-19.41-9.776s9.48-10.874,21.115-10.969c11.635-.095,19.252,3.261,19.939,8.61Z" fill="#3a3a3a"/>
+      <g clip-path="url(#clippath-4)">
+        <ellipse cx="343.968" cy="172.815" rx="8.006" ry="4.102" transform="translate(-2.163 4.374) rotate(-.726)" stroke-miterlimit="10" fill="#665640" stroke="#9b7b2c" stroke-dasharray="8 8" stroke-linecap="round" stroke-width="3px"/>
+      </g>
+      <path d="M362.036,162.446c.808,6.285-10.008,12.04-21.643,12.135-11.635.095-19.436-3.813-19.41-9.776s9.48-10.874,21.115-10.969c11.635-.095,19.252,3.261,19.939,8.61Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+    </g>
+    <g>
+      <ellipse cx="374.344" cy="180.53" rx="22.193" ry="11.501" transform="translate(-2.283 4.813) rotate(-.734)" fill="#3a3a3a"/>
+      <g clip-path="url(#clippath-5)">
+        <ellipse cx="376.365" cy="189.248" rx="8.433" ry="4.37" transform="translate(-2.395 4.839) rotate(-.734)" stroke-miterlimit="10" fill="#665640" stroke="#9b7b2c" stroke-dasharray="8 8" stroke-linecap="round" stroke-width="3px"/>
+      </g>
+      <ellipse cx="374.344" cy="180.53" rx="22.193" ry="11.501" transform="translate(-2.283 4.813) rotate(-.734)" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+    </g>
+  </g>
+  <g>
+    <g>
+      <path d="M278.818,149.629c.887,6.106-11.765,11.954-20.507,12.469-11.173.659-18.277-2.568-18.357-8.382-.08-5.813,8.92-10.84,20.103-11.228,11.182-.387,18.006,1.943,18.761,7.14Z" fill="#3a3a3a"/>
+      <g clip-path="url(#clippath-6)">
+        <ellipse cx="262.191" cy="160.943" rx="7.699" ry="3.999" transform="translate(-6.578 11.244) rotate(-2.426)" stroke-miterlimit="10" fill="#665640" stroke="#9b7b2c" stroke-dasharray="8 8" stroke-linecap="round" stroke-width="3px"/>
+      </g>
+      <path d="M278.818,149.629c.887,6.106-11.765,11.954-20.507,12.469-11.173.659-18.277-2.568-18.357-8.382-.08-5.813,8.92-10.84,20.103-11.228,11.182-.387,18.006,1.943,18.761,7.14Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+    </g>
+    <g>
+      <path d="M306.824,165.377c.898,6.918-9.862,12.787-21.044,13.174-11.182.387-18.283-2.992-18.373-9.574-.091-6.583,8.901-12.233,20.084-12.62s18.569,3.133,19.334,9.02Z" fill="#3a3a3a"/>
+      <g clip-path="url(#clippath-7)">
+        <ellipse cx="289.658" cy="177.261" rx="7.7" ry="4.528" transform="translate(-7.791 13.41) rotate(-2.617)" stroke-miterlimit="10" fill="#665640" stroke="#9b7b2c" stroke-dasharray="8 8" stroke-linecap="round" stroke-width="3px"/>
+      </g>
+      <path d="M306.824,165.377c.898,6.918-9.862,12.787-21.044,13.174-11.182.387-18.283-2.992-18.373-9.574-.091-6.583,8.901-12.233,20.084-12.62s18.569,3.133,19.334,9.02Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+    </g>
+    <g>
+      <path d="M337.395,181.708c.937,7.264-9.78,14.208-21.433,14.611-11.653.404-19.547-3.93-19.642-10.842-.095-6.912,9.274-12.843,20.927-13.246,11.653-.404,19.351,3.295,20.148,9.477Z" fill="#3a3a3a"/>
+      <g clip-path="url(#clippath-8)">
+        <ellipse cx="319.508" cy="194.182" rx="8.023" ry="4.755" transform="translate(-8.58 14.877) rotate(-2.632)" stroke-miterlimit="10" fill="#665640" stroke="#9b7b2c" stroke-dasharray="8 8" stroke-linecap="round" stroke-width="3px"/>
+      </g>
+      <path d="M337.395,181.708c.937,7.264-9.78,14.208-21.433,14.611-11.653.404-19.547-3.93-19.642-10.842-.095-6.912,9.274-12.843,20.927-13.246,11.653-.404,19.351,3.295,20.148,9.477Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+    </g>
+    <g>
+      <ellipse cx="350.092" cy="202.359" rx="22.241" ry="13.33" transform="translate(-8.998 16.435) rotate(-2.655)" fill="#3a3a3a"/>
+      <g clip-path="url(#clippath-9)">
+        <ellipse cx="352.295" cy="212.412" rx="8.452" ry="5.065" transform="translate(-9.461 16.548) rotate(-2.655)" stroke-miterlimit="10" fill="#665640" stroke="#9b7b2c" stroke-dasharray="8 8" stroke-linecap="round" stroke-width="3px"/>
+      </g>
+      <ellipse cx="350.092" cy="202.359" rx="22.241" ry="13.33" transform="translate(-8.998 16.435) rotate(-2.655)" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+    </g>
+  </g>
+  <g>
+    <g>
+      <path d="M248.966,167.153c1.035,6.808-12.021,13.489-21.105,14.169-11.612.87-19.061-2.65-19.251-9.14s9.082-12.211,20.708-12.778c11.626-.566,18.768,1.955,19.648,7.749Z" fill="#3a3a3a"/>
+      <g clip-path="url(#clippath-10)">
+        <ellipse cx="231.876" cy="179.986" rx="8.01" ry="4.467" transform="translate(-9.949 13.607) rotate(-3.291)" stroke-miterlimit="10" fill="#665640" stroke="#9b7b2c" stroke-dasharray="8 8" stroke-linecap="round" stroke-width="3px"/>
+      </g>
+      <path d="M248.966,167.153c1.035,6.808-12.021,13.489-21.105,14.169-11.612.87-19.061-2.65-19.251-9.14s9.082-12.211,20.708-12.778c11.626-.566,18.768,1.955,19.648,7.749Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+    </g>
+    <g>
+      <path d="M278.391,184.404c1.061,7.714-10.025,14.396-21.651,14.962-11.626.566-19.075-3.122-19.29-10.472s9.036-13.766,20.662-14.332,19.376,3.277,20.279,9.842Z" fill="#3a3a3a"/>
+      <g clip-path="url(#clippath-11)">
+        <ellipse cx="260.75" cy="197.879" rx="8.01" ry="5.057" transform="translate(-11.678 16.414) rotate(-3.527)" stroke-miterlimit="10" fill="#665640" stroke="#9b7b2c" stroke-dasharray="8 8" stroke-linecap="round" stroke-width="3px"/>
+      </g>
+      <path d="M278.391,184.404c1.061,7.714-10.025,14.396-21.651,14.962-11.626.566-19.075-3.122-19.29-10.472s9.036-13.766,20.662-14.332,19.376,3.277,20.279,9.842Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+    </g>
+    <g>
+      <path d="M310.494,202.275c1.108,8.101-9.915,15.982-22.03,16.572-12.115.59-20.407-4.155-20.633-11.873-.226-7.717,9.413-14.452,21.529-15.042,12.115-.59,20.192,3.448,21.134,10.342Z" fill="#3a3a3a"/>
+      <g clip-path="url(#clippath-12)">
+        <ellipse cx="292.114" cy="216.418" rx="8.347" ry="5.31" transform="translate(-12.825 18.48) rotate(-3.546)" stroke-miterlimit="10" fill="#665640" stroke="#9b7b2c" stroke-dasharray="8 8" stroke-linecap="round" stroke-width="3px"/>
+      </g>
+      <path d="M310.494,202.275c1.108,8.101-9.915,15.982-22.03,16.572-12.115.59-20.407-4.155-20.633-11.873-.226-7.717,9.413-14.452,21.529-15.042,12.115-.59,20.192,3.448,21.134,10.342Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+    </g>
+    <g>
+      <ellipse cx="324.082" cy="225.183" rx="23.138" ry="14.888" transform="translate(-13.412 20.648) rotate(-3.575)" fill="#3a3a3a"/>
+      <g clip-path="url(#clippath-13)">
+        <ellipse cx="326.557" cy="236.384" rx="8.793" ry="5.658" transform="translate(-14.106 20.824) rotate(-3.575)" stroke-miterlimit="10" fill="#665640" stroke="#9b7b2c" stroke-dasharray="8 8" stroke-linecap="round" stroke-width="3px"/>
+      </g>
+      <ellipse cx="324.082" cy="225.183" rx="23.138" ry="14.888" transform="translate(-13.412 20.648) rotate(-3.575)" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+    </g>
+  </g>
+  <g>
+    <g>
+      <path d="M218.725,185.816c1.026,7.457-11.882,14.642-20.865,15.301-11.482.842-18.851-3.078-19.041-10.179-.19-7.102,8.976-13.273,20.473-13.783s18.56,2.315,19.433,8.661Z" fill="#3a3a3a"/>
+      <g clip-path="url(#clippath-14)">
+        <ellipse cx="201.83" cy="199.692" rx="7.919" ry="4.887" transform="translate(-10.701 11.429) rotate(-3.16)" stroke-miterlimit="10" fill="#665640" stroke="#9b7b2c" stroke-dasharray="8 8" stroke-linecap="round" stroke-width="3px"/>
+      </g>
+      <path d="M218.725,185.816c1.026,7.457-11.882,14.642-20.865,15.301-11.482.842-18.851-3.078-19.041-10.179-.19-7.102,8.976-13.273,20.473-13.783s18.56,2.315,19.433,8.661Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+    </g>
+    <g>
+      <path d="M247.83,204.963c1.053,8.448-9.908,15.654-21.405,16.164-11.497.51-18.864-3.595-19.08-11.636-.215-8.041,8.93-14.974,20.427-15.484,11.497-.51,19.162,3.766,20.058,10.956Z" fill="#3a3a3a"/>
+      <g clip-path="url(#clippath-15)">
+        <ellipse cx="230.391" cy="219.537" rx="7.919" ry="5.533" transform="translate(-12.977 14.479) rotate(-3.501)" stroke-miterlimit="10" fill="#665640" stroke="#9b7b2c" stroke-dasharray="8 8" stroke-linecap="round" stroke-width="3px"/>
+      </g>
+      <path d="M247.83,204.963c1.053,8.448-9.908,15.654-21.405,16.164-11.497.51-18.864-3.595-19.08-11.636-.215-8.041,8.93-14.974,20.427-15.484,11.497-.51,19.162,3.766,20.058,10.956Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+    </g>
+    <g>
+      <path d="M279.584,224.813c1.099,8.872-9.798,17.389-21.779,17.921-11.981.532-20.182-4.737-20.409-13.181-.226-8.444,9.303-15.72,21.283-16.252,11.981-.532,19.969,3.962,20.904,11.512Z" fill="#3a3a3a"/>
+      <g clip-path="url(#clippath-16)">
+        <ellipse cx="261.414" cy="240.111" rx="8.253" ry="5.81" transform="translate(-14.289 16.553) rotate(-3.53)" stroke-miterlimit="10" fill="#665640" stroke="#9b7b2c" stroke-dasharray="8 8" stroke-linecap="round" stroke-width="3px"/>
+      </g>
+      <path d="M279.584,224.813c1.099,8.872-9.798,17.389-21.779,17.921-11.981.532-20.182-4.737-20.409-13.181-.226-8.444,9.303-15.72,21.283-16.252,11.981-.532,19.969,3.962,20.904,11.512Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+    </g>
+    <g>
+      <ellipse cx="293.03" cy="250" rx="22.877" ry="16.289" transform="translate(-15.024 18.766) rotate(-3.576)" fill="#3a3a3a"/>
+      <g clip-path="url(#clippath-17)">
+        <ellipse cx="295.482" cy="262.275" rx="8.693" ry="6.19" transform="translate(-15.785 18.943) rotate(-3.576)" stroke-miterlimit="10" fill="#665640" stroke="#9b7b2c" stroke-dasharray="8 8" stroke-linecap="round" stroke-width="3px"/>
+      </g>
+      <ellipse cx="293.03" cy="250" rx="22.877" ry="16.289" transform="translate(-15.024 18.766) rotate(-3.576)" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+    </g>
+  </g>
+  <g>
+    <g>
+      <path d="M186.153,206.724c.877,8.203-12.614,15.71-21.897,16.177-11.866.596-19.371-3.91-19.394-11.699-.023-7.79,9.582-14.292,21.455-14.524,11.873-.232,19.09,3.066,19.836,10.046Z" fill="#3a3a3a"/>
+      <g clip-path="url(#clippath-18)">
+        <ellipse cx="168.386" cy="221.453" rx="8.171" ry="5.358" transform="translate(-6.999 5.501) rotate(-1.833)" stroke-miterlimit="10" fill="#665640" stroke="#9b7b2c" stroke-dasharray="8 8" stroke-linecap="round" stroke-width="3px"/>
+      </g>
+      <path d="M186.153,206.724c.877,8.203-12.614,15.71-21.897,16.177-11.866.596-19.371-3.91-19.394-11.699-.023-7.79,9.582-14.292,21.455-14.524,11.873-.232,19.09,3.066,19.836,10.046Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+    </g>
+    <g>
+      <path d="M215.711,228.539c.88,9.29-10.602,16.875-22.475,17.107-11.873.232-19.373-4.477-19.399-13.297-.026-8.82,9.577-16.158,21.449-16.39,11.873-.232,19.675,4.674,20.424,12.58Z" fill="#3a3a3a"/>
+      <g clip-path="url(#clippath-19)">
+        <ellipse cx="197.366" cy="244.017" rx="8.172" ry="6.067" transform="translate(-9.562 8.054) rotate(-2.282)" stroke-miterlimit="10" fill="#665640" stroke="#9b7b2c" stroke-dasharray="8 8" stroke-linecap="round" stroke-width="3px"/>
+      </g>
+      <path d="M215.711,228.539c.88,9.29-10.602,16.875-22.475,17.107-11.873.232-19.373-4.477-19.399-13.297-.026-8.82,9.577-16.158,21.449-16.39,11.873-.232,19.675,4.674,20.424,12.58Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+    </g>
+    <g>
+      <path d="M247.985,251.2c.917,9.755-10.531,18.781-22.903,19.023-12.372.242-20.705-5.767-20.732-15.028-.028-9.262,9.979-16.966,22.351-17.207,12.372-.242,20.503,4.911,21.284,13.213Z" fill="#3a3a3a"/>
+      <g clip-path="url(#clippath-20)">
+        <ellipse cx="228.869" cy="267.451" rx="8.516" ry="6.371" transform="translate(-10.653 9.497) rotate(-2.323)" stroke-miterlimit="10" fill="#665640" stroke="#9b7b2c" stroke-dasharray="8 8" stroke-linecap="round" stroke-width="3px"/>
+      </g>
+      <path d="M247.985,251.2c.917,9.755-10.531,18.781-22.903,19.023-12.372.242-20.705-5.767-20.732-15.028-.028-9.262,9.979-16.966,22.351-17.207,12.372-.242,20.503,4.911,21.284,13.213Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+    </g>
+    <g>
+      <ellipse cx="261.243" cy="279.189" rx="23.606" ry="17.86" transform="translate(-11.404 11.126) rotate(-2.388)" fill="#3a3a3a"/>
+      <g clip-path="url(#clippath-21)">
+        <ellipse cx="263.473" cy="292.713" rx="8.97" ry="6.787" transform="translate(-11.966 11.23) rotate(-2.388)" stroke-miterlimit="10" fill="#665640" stroke="#9b7b2c" stroke-dasharray="8 8" stroke-linecap="round" stroke-width="3px"/>
+      </g>
+      <ellipse cx="261.243" cy="279.189" rx="23.606" ry="17.86" transform="translate(-11.404 11.126) rotate(-2.388)" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+    </g>
+  </g>
+  <g>
+    <path d="M151.517,230.736c.852,8.405-12.663,15.813-21.948,16.104-11.869.373-19.362-4.385-19.362-12.35s9.626-14.423,21.501-14.423,19.083,3.516,19.809,10.669Z" fill="#3a3a3a"/>
+    <g clip-path="url(#clippath-22)">
+      <ellipse cx="133.703" cy="245.442" rx="8.17" ry="5.481" stroke-miterlimit="10" fill="#665640" stroke="#9b7b2c" stroke-dasharray="8 8" stroke-linecap="round" stroke-width="3px"/>
+    </g>
+    <path d="M151.517,230.736c.852,8.405-12.663,15.813-21.948,16.104-11.869.373-19.362-4.385-19.362-12.35s9.626-14.423,21.501-14.423,19.083,3.516,19.809,10.669Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+  </g>
+  <g>
+    <path d="M181.013,253.632c.852,9.517-10.654,17.044-22.529,17.044s-19.362-4.965-19.362-13.984,9.626-16.331,21.501-16.331,19.664,5.172,20.389,13.271Z" fill="#3a3a3a"/>
+    <g clip-path="url(#clippath-23)">
+      <ellipse cx="162.619" cy="269.093" rx="8.17" ry="6.206" stroke-miterlimit="10" fill="#665640" stroke="#9b7b2c" stroke-dasharray="8 8" stroke-linecap="round" stroke-width="3px"/>
+    </g>
+    <path d="M181.013,253.632c.852,9.517-10.654,17.044-22.529,17.044s-19.362-4.965-19.362-13.984,9.626-16.331,21.501-16.331,19.664,5.172,20.389,13.271Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+  </g>
+  <g>
+    <path d="M213.223,277.449c.888,9.993-10.588,18.994-22.963,18.994s-20.69-6.31-20.69-15.781,10.031-17.149,22.406-17.149,20.491,5.431,21.247,13.936Z" fill="#3a3a3a"/>
+    <g clip-path="url(#clippath-24)">
+      <ellipse cx="194.056" cy="293.684" rx="8.514" ry="6.516" stroke-miterlimit="10" fill="#665640" stroke="#9b7b2c" stroke-dasharray="8 8" stroke-linecap="round" stroke-width="3px"/>
+    </g>
+    <path d="M213.223,277.449c.888,9.993-10.588,18.994-22.963,18.994s-20.69-6.31-20.69-15.781,10.031-17.149,22.406-17.149,20.491,5.431,21.247,13.936Z" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+  </g>
+  <g>
+    <ellipse cx="226.398" cy="306.333" rx="23.602" ry="18.269" fill="#3a3a3a"/>
+    <g clip-path="url(#clippath-25)">
+      <ellipse cx="228.589" cy="320.206" rx="8.969" ry="6.942" stroke-miterlimit="10" fill="#665640" stroke="#9b7b2c" stroke-dasharray="8 8" stroke-linecap="round" stroke-width="3px"/>
+    </g>
+    <ellipse cx="226.398" cy="306.333" rx="23.602" ry="18.269" stroke="#666" stroke-width="1.022px" stroke-miterlimit="10" fill="none"/>
+  </g>
+</svg>

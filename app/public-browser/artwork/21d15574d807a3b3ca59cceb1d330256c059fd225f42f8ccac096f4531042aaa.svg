@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500">
+  
+  <defs>
+    
+  </defs>
+  <g style="isolation: isolate">
+    <g id="Barcoded_x5F_Cell0001">
+      <g>
+        <g>
+          <g>
+            <path d="M250,383.903c-73.834,0-133.903-60.069-133.903-133.903s60.068-133.903,133.903-133.903,133.903,60.068,133.903,133.903-60.069,133.903-133.903,133.903Z" fill="#efefef"/>
+            <path d="M250,119.727c71.948,0,130.273,58.325,130.273,130.273s-58.325,130.273-130.273,130.273-130.273-58.325-130.273-130.273,58.325-130.273,130.273-130.273M250,112.467c-36.736,0-71.274,14.306-97.25,40.282-25.977,25.976-40.282,60.514-40.282,97.25s14.306,71.274,40.282,97.25c25.976,25.977,60.514,40.282,97.25,40.282s71.274-14.306,97.25-40.282c25.977-25.976,40.282-60.514,40.282-97.25s-14.306-71.274-40.282-97.25c-25.976-25.977-60.514-40.282-97.25-40.282h0Z" fill="#919191"/>
+          </g>
+          <circle cx="255.842" cy="252.337" r="90.549" fill="#a19fa0"/>
+        </g>
+        <g style="mix-blend-mode: multiply">
+          <line x1="290.645" y1="209.657" x2="290.645" y2="300.84" fill="none" stroke="#838b8e" stroke-linejoin="round" stroke-width="26.079px"/>
+          <line x1="215.222" y1="209.657" x2="215.222" y2="300.84" fill="none" stroke="#838b8e" stroke-linejoin="round" stroke-width="26.079px"/>
+          <line x1="260.813" y1="209.657" x2="260.813" y2="300.84" fill="none" stroke="#838b8e" stroke-linejoin="round" stroke-width="8.693px"/>
+          <line x1="238.862" y1="209.657" x2="238.862" y2="300.84" fill="none" stroke="#838b8e" stroke-linejoin="round" stroke-width="4.347px"/>
+          <line x1="191.581" y1="209.657" x2="191.581" y2="300.84" stroke-width="6.52px" fill="none" stroke="#838b8e" stroke-linejoin="round"/>
+          <line x1="317.662" y1="209.657" x2="317.662" y2="300.84" fill="none" stroke="#838b8e" stroke-linejoin="round" stroke-width="4.347px"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

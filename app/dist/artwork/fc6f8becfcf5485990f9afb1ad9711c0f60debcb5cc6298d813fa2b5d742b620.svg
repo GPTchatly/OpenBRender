@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500">
+  <defs>
+    
+    <clipPath id="clippath">
+      <ellipse cx="250" cy="250" rx="128.5" ry="137.28" transform="translate(-58.65 422.43) rotate(-74.19)" stroke="#888589" stroke-miterlimit="10" stroke-width="2.95px" fill="#c5b7c6"/>
+    </clipPath>
+  </defs>
+  
+  <g>
+    <g id="Layer_1">
+      <g>
+        <ellipse cx="250" cy="250" rx="128.5" ry="137.28" transform="translate(-58.65 422.43) rotate(-74.19)" fill="#c5b7c6"/>
+        <g clip-path="url(#clippath)">
+          <ellipse cx="243.37" cy="250" rx="117.29" ry="117.23" transform="translate(-63.48 416.04) rotate(-74.19)" fill="#ded4e0"/>
+        </g>
+        <ellipse cx="250" cy="250" rx="128.5" ry="137.28" transform="translate(-58.65 422.43) rotate(-74.19)" fill="none" stroke="#888589" stroke-miterlimit="10" stroke-width="2.95px"/>
+      </g>
+    </g>
+  </g>
+</svg>

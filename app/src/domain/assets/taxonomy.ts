@@ -1,3 +1,5 @@
+import type { AssetMetadata } from "./schema";
+
 export interface AssetTaxonomyGroup {
   id: string;
   label: string;
@@ -17,6 +19,9 @@ export const assetTaxonomy = [
       "Cell membrane",
       "Intracellular components",
       "Extracellular matrix",
+      "Cells and organelles",
+      "Cell scenes",
+      "Cellular processes",
     ],
   },
   {
@@ -32,6 +37,8 @@ export const assetTaxonomy = [
       "Peptides",
       "Receptors channels",
       "Molecular modelling",
+      "Proteins",
+      "Molecules",
     ],
   },
   {
@@ -51,6 +58,8 @@ export const assetTaxonomy = [
       "Tissues",
       "Blood Immunology",
       "Animals",
+      "Arthropods",
+      "Other organisms",
       "Plants Algae",
       "People Other",
     ],
@@ -102,4 +111,67 @@ export function getAssetTaxonomyGroup(id: string) {
 
 export function getAssetTaxonomyForCategory(category: string) {
   return groupByCategory.get(category);
+}
+
+export interface AssetShelf {
+  category: string;
+  assets: AssetMetadata[];
+}
+
+export interface AssetTopicShelves {
+  id: string;
+  label: string;
+  count: number;
+  shelves: AssetShelf[];
+}
+
+const collator = new Intl.Collator("en", { sensitivity: "base", numeric: true });
+const topicOrder = new Map<string, number>(
+  assetTaxonomy.map((group, index) => [group.id, index]),
+);
+const topicIndex = (asset: AssetMetadata) =>
+  topicOrder.get(getAssetTaxonomyForCategory(asset.category)?.id ?? "") ??
+  assetTaxonomy.length;
+
+const nihFirst = (asset: AssetMetadata) =>
+  asset.source.provider === "NIH BioArt Source" ? 0 : 1;
+
+/** Browsing order: topic, then category name, NIH BioArt drawings first, then drawing title. */
+export function compareAssetsByTaxonomy(left: AssetMetadata, right: AssetMetadata) {
+  return (
+    topicIndex(left) - topicIndex(right) ||
+    collator.compare(left.category, right.category) ||
+    nihFirst(left) - nihFirst(right) ||
+    collator.compare(left.title, right.title)
+  );
+}
+
+/**
+ * Groups drawings into topic sections of category shelves. Topics, shelves and
+ * drawings keep their first-appearance order, so ranked search results put the
+ * shelf holding the best match first.
+ */
+export function groupAssetsByTopic(assets: readonly AssetMetadata[]): AssetTopicShelves[] {
+  const topics = new Map<string, AssetTopicShelves & { byCategory: Map<string, AssetShelf> }>();
+  for (const asset of assets) {
+    const group = getAssetTaxonomyForCategory(asset.category);
+    const id = group?.id ?? "other";
+    let topic = topics.get(id);
+    if (!topic) {
+      topic = { id, label: group?.label ?? "Other", count: 0, shelves: [], byCategory: new Map() };
+      topics.set(id, topic);
+    }
+    let shelf = topic.byCategory.get(asset.category);
+    if (!shelf) {
+      shelf = { category: asset.category, assets: [] };
+      topic.byCategory.set(asset.category, shelf);
+      topic.shelves.push(shelf);
+    }
+    shelf.assets.push(asset);
+    topic.count++;
+  }
+  return [...topics.values()].map(({ byCategory, ...topic }) => {
+    void byCategory;
+    return topic;
+  });
 }

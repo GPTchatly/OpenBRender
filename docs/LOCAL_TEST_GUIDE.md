@@ -15,7 +15,7 @@ The supplied build needs Node.js 24.11 or newer, but no npm installation and no 
 3. Drag and resize objects. Use the Style inspector for coordinates, rotation, colors, opacity and text font/size. Shift-click selects multiple objects.
 4. Group/ungroup, duplicate, align and reorder selections. Use Layers to hide, lock or reorder individual objects.
 5. Expand Scientific drawing for cells, membranes, DNA, panels, scale bars and editable bar/line charts. Chart components can be ungrouped and edited.
-6. Browse 583 drawings across 33 categories, or search for incubator, DNA, pipette, chromatin, antibody, neuron, mouse, microscope, plants, mitochondria or cell. Use Browse topics, Filters and Show more. Add an illustration, adjust its size and optionally recolor it.
+6. Browse 2,665 drawings across 39 categories, or search for incubator, DNA, pipette, chromatin, antibody, neuron, mouse, microscope, plants, mitochondria or cell. Open a category shelf to see all of its drawings; use Browse topics and Filters to narrow the shelves. Add an illustration, adjust its size and optionally recolor it.
 7. Check License for provenance and credit downloads. CC BY drawings require attribution: keep downloaded credits with PNG/PDF publications. SVG metadata and portable projects retain source/license/modification records. Imported private artwork is clearly unreviewed; entered license claims do not grant trusted status.
 
 ## Save, reopen and recover
@@ -44,7 +44,7 @@ Import SVG through the library import control. Supply creator/source/license/cre
 - **PNG:** select 1×, 2×, 3× or 4×. The dimensions are document pixels multiplied by that scale; editor selection handles are excluded.
 - **PDF:** click PDF and choose Save as PDF in the browser print dialog. Use 100% scale, no margins and disable headers/footers. Chrome/Edge honor the document's page size at 96 px per inch. The local automated Chromium check confirms vector paths, embedded fonts and no PDF script/launch/attachment actions.
 
-Publication checks help expose rights gaps; they do not certify scientific accuracy. Scale-bar labels, chart values and reference examples need author review. SVG live text can depend on installed fonts in external tools. Raster image import, arbitrary SVG effects and the larger curated publication library are outside this local release.
+The License tab helps expose rights gaps; it does not certify scientific accuracy. Scale-bar labels, chart values and reference examples need author review. SVG live text can depend on installed fonts in external tools. Raster image import, arbitrary SVG effects and the larger curated publication library are outside this local release.
 
 ## Automated checks
 

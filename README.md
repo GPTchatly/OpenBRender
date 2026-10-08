@@ -49,8 +49,9 @@ Generated test reports belong in `reports/` and are excluded from this release.
 
 Editable text, shapes, arrows, layers, groups, scientific drawing tools, editable
 charts, an SVG artwork editor, autosave/recovery, portable project files, and
-SVG/PNG/vector-PDF exports. The library includes 583 drawings across 33 categories
-(296 CC0 and 287 CC BY 4.0), with per-item provenance and credits.
+SVG/PNG/vector-PDF exports. The library includes 2,665 drawings across 39 categories
+from Bioicons, Servier Medical Art and NIH BioArt Source (CC0, CC BY 3.0, CC BY 4.0
+and public domain), with per-item provenance and credits.
 
 This is a local browser evaluation release. It includes no native installer and
 claims no hosted deployment, scientific certification, broad external-tool export

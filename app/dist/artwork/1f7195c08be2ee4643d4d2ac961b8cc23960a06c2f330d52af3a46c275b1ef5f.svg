@@ -1,0 +1,19 @@
+<svg id="Graph0004" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500">
+  
+  <defs>
+    
+  </defs>
+  <line x1="110.957" y1="193.537" x2="110.957" y2="400.287" fill="none" stroke-miterlimit="10" stroke-width="16.806px" stroke="#c6c7c9"/>
+  <line x1="133.204" y1="236.096" x2="133.204" y2="400.287" stroke="#231f20" fill="none" stroke-miterlimit="10" stroke-width="16.806px"/>
+  <line x1="155.451" y1="284.458" x2="155.451" y2="400.529" fill="none" stroke-miterlimit="10" stroke-width="16.806px" stroke="#1c75bc"/>
+  <line x1="191.723" y1="275.995" x2="191.723" y2="400.287" fill="none" stroke-miterlimit="10" stroke-width="16.806px" stroke="#c6c7c9"/>
+  <line x1="213.97" y1="184.589" x2="213.97" y2="400.287" stroke="#231f20" fill="none" stroke-miterlimit="10" stroke-width="16.806px"/>
+  <line x1="236.217" y1="247.461" x2="236.217" y2="400.529" fill="none" stroke-miterlimit="10" stroke-width="16.806px" stroke="#1c75bc"/>
+  <line x1="272.972" y1="221.345" x2="272.972" y2="400.287" fill="none" stroke-miterlimit="10" stroke-width="16.806px" stroke="#c6c7c9"/>
+  <line x1="295.219" y1="282.282" x2="295.219" y2="400.287" stroke="#231f20" fill="none" stroke-miterlimit="10" stroke-width="16.806px"/>
+  <line x1="317.466" y1="343.703" x2="317.466" y2="400.529" fill="none" stroke-miterlimit="10" stroke-width="16.806px" stroke="#1c75bc"/>
+  <line x1="362.443" y1="146.383" x2="362.443" y2="400.287" fill="none" stroke-miterlimit="10" stroke-width="16.806px" stroke="#c6c7c9"/>
+  <line x1="384.69" y1="261.003" x2="384.69" y2="400.287" stroke="#231f20" fill="none" stroke-miterlimit="10" stroke-width="16.806px"/>
+  <line x1="406.937" y1="226.665" x2="406.937" y2="400.529" fill="none" stroke-miterlimit="10" stroke-width="16.806px" stroke="#1c75bc"/>
+  <polyline points="70.091 99.471 70.091 400.287 429.909 400.287" fill="none" stroke-miterlimit="10" stroke="#000" stroke-width="3.368px"/>
+</svg>

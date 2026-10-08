@@ -1,0 +1,19 @@
+NIH BioArt Source terms and conditions (https://bioart.niaid.nih.gov/terms), retrieved 2026-10-07
+Applies to NIH BioArt Source drawings in the OpenBRender library. Each drawing records the license stated on its entry: Public Domain, or CC BY 4.0 with required attribution.
+Recommended credit: "Illustration from NIAID NIH BioArt Source (bioart.niaid.nih.gov/bioart/###)". The citation for each drawing is in its attribution record.
+
+By accessing and using the NIH BioArt Source, you agree to comply with and be bound by the following terms and conditions. If you do not agree with any part of these terms, you are prohibited from using this site.
+
+The illustrations and content provided on the NIH BioArt Source are free for any use, including educational, research, informational, and commercial purposes.  Please review the license associated with the specific entry for any attribution requirements.
+
+Credit directly below image on web, presentation, or print:
+
+Users are prohibited from using the content in any manner that violates applicable laws or regulations. While the content is free for any use, NIH BioArt Source expects users to respect the integrity and intended use of the illustrations.
+
+While efforts are made to ensure the accuracy and quality of the content, NIH BioArt Source does not warrant that the illustrations are error-free or complete. Given the dynamic nature of scientific discovery, information may evolve, and users are encouraged to verify the content and use it in conjunction with other reliable sources.
+
+NIH BioArt Source holds the integrity and intent of the resource in high regard. Users are encouraged to maintain the quality and accuracy of the content when using it in any capacity. Please review the license associated with the entry for specific attribution requirements.
+
+NIH BioArt Source and its affiliates are not liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use the content provided. This includes but is not limited to errors, omissions, or inaccuracies in the content.
+
+NIH BioArt Source reserves the right to modify these terms and conditions at any time without prior notice. Users are responsible for regularly reviewing these terms to ensure compliance.

@@ -4,6 +4,7 @@ import {
   Binary,
   Boxes,
   ChevronDown,
+  ChevronRight,
   BarChart3,
   CircleDotDashed,
   Clock3,
@@ -24,6 +25,7 @@ import {
 import {
   useDeferredValue,
   useEffect,
+  useId,
   useMemo,
   useRef,
   useState,
@@ -40,13 +42,18 @@ import {
 } from "../../domain/assets/libraryState";
 import { searchAssets, type AssetFilters } from "../../domain/assets/search";
 import type { AssetMetadata } from "../../domain/assets/schema";
-import { assetTaxonomy } from "../../domain/assets/taxonomy";
+import {
+  assetTaxonomy,
+  compareAssetsByTaxonomy,
+  groupAssetsByTopic,
+} from "../../domain/assets/taxonomy";
 import type { ScientificElementKind } from "../../domain/scientific/elements";
 import { t, type Locale } from "../../i18n/messages";
 import { DEFAULT_ASSET_FILTERS } from "./filters";
 
-const RESULT_PAGE_SIZE = 48;
 type AssetScope = "all" | "favorites" | "recent";
+const SHELF_PREVIEW_SIZE = 4;
+const noToggledShelves: ReadonlySet<string> = new Set();
 
 const topicIcons = {
   "cells-organelles": Boxes,
@@ -82,8 +89,9 @@ export function AssetsPanel({
 }: AssetsPanelProps) {
   const fileInputRef = useRef<HTMLInputElement>(null);
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const resultsRef = useRef<HTMLDivElement>(null);
   const [scope, setScope] = useState<AssetScope>("all");
-  const [visibleCount, setVisibleCount] = useState(RESULT_PAGE_SIZE);
+  const shelfIdPrefix = useId();
   const [pendingAssets, setPendingAssets] = useState<Set<string>>(() => new Set());
   const insertAsset = async (asset: AssetMetadata) => {
     if (pendingAssets.has(asset.id)) return;
@@ -109,7 +117,42 @@ export function AssetsPanel({
     () => searchAssets(scopedAssets, deferredFilters),
     [deferredFilters, scopedAssets],
   );
-  const visibleResults = results.slice(0, visibleCount);
+  const searching = deferredFilters.query.trim() !== "";
+  // Browsing the whole library reads in topic/category/title order; ranked
+  // search results and the personal lists keep their own order.
+  const topics = useMemo(
+    () =>
+      groupAssetsByTopic(
+        scope === "all" && !searching
+          ? [...results].sort(compareAssetsByTaxonomy)
+          : results,
+      ),
+    [results, scope, searching],
+  );
+  const shelfCount = topics.reduce((sum, topic) => sum + topic.shelves.length, 0);
+  // Shelves start closed while browsing the full library and open once the
+  // view is narrowed; a click inverts that default for one shelf.
+  const shelvesOpenByDefault = scope !== "all" || searching || shelfCount === 1;
+  const [shelfToggles, setShelfToggles] = useState({
+    openByDefault: false,
+    categories: noToggledShelves,
+  });
+  const toggledShelves =
+    shelfToggles.openByDefault === shelvesOpenByDefault
+      ? shelfToggles.categories
+      : noToggledShelves;
+  const toggleShelf = (category: string) =>
+    setShelfToggles((previous) => {
+      const next = new Set<string>(
+        previous.openByDefault === shelvesOpenByDefault ? previous.categories : [],
+      );
+      if (!next.delete(category)) next.add(category);
+      return { openByDefault: shelvesOpenByDefault, categories: next };
+    });
+  // A new search or view starts at its first shelf, not mid-way down the last one.
+  useEffect(() => {
+    resultsRef.current?.scrollTo({ top: 0 });
+  }, [deferredFilters, scope]);
   const categories = [
     ...new Set(seedCatalog.map((asset) => asset.category)),
   ].sort((left, right) => left.localeCompare(right));
@@ -119,8 +162,6 @@ export function AssetsPanel({
   const licenses = [
     ...new Set(seedCatalog.map((asset) => asset.license.id)),
   ].sort((left, right) => left.localeCompare(right));
-
-  useEffect(() => setVisibleCount(RESULT_PAGE_SIZE), [deferredFilters, scope]);
 
   useEffect(() => {
     const syncLibraryState = () =>
@@ -164,6 +205,65 @@ export function AssetsPanel({
     window.addEventListener("keydown", focusSearch);
     return () => window.removeEventListener("keydown", focusSearch);
   }, []);
+
+  const renderAssetCard = (asset: AssetMetadata) => (
+    <article
+      className="asset-card"
+      data-asset-id={asset.id}
+      key={asset.id}
+      title={`${asset.title}\n${asset.source.provider} · ${asset.license.name}`}
+      draggable
+      onDragStart={(event) => {
+        event.dataTransfer.effectAllowed = "copy";
+        event.dataTransfer.setData(
+          "application/x-openbiofigure-asset",
+          asset.id,
+        );
+      }}
+      aria-busy={pendingAssets.has(asset.id)}
+      onDoubleClick={event => {
+        if ((event.target as HTMLElement).closest("button")) return;
+        void insertAsset(asset);
+      }}
+    >
+      <div className="asset-thumb" aria-hidden="true">
+        <img src={getSeedAssetUrl(asset)} alt="" loading="lazy" />
+        {asset.license.attributionRequired && (
+          <span className="credit-flag">credit</span>
+        )}
+      </div>
+      <div className="asset-card-copy">
+        <strong>{asset.title}</strong>
+        {pendingAssets.has(asset.id) && <span role="status">Loading drawing…</span>}
+        <span className="visually-hidden">
+          {asset.source.provider} · {asset.license.id}
+          {asset.license.attributionRequired && " · credit required"}
+        </span>
+      </div>
+      <div className="asset-actions">
+        <button
+          type="button"
+          className={`asset-favorite${libraryState.favorites.includes(asset.id) ? " active" : ""}`}
+          onClick={() => updateFavorite(asset.id)}
+          aria-pressed={libraryState.favorites.includes(asset.id)}
+          aria-label={`${t(locale, "favoriteAsset")}: ${asset.title}`}
+          title={t(locale, "favoriteAsset")}
+        >
+          <Star />
+        </button>
+        <button
+          type="button"
+          className="asset-add"
+          disabled={pendingAssets.has(asset.id)}
+          onClick={() => void insertAsset(asset)}
+          aria-label={`${t(locale, "addToCanvas")}: ${asset.title}`}
+          title={t(locale, "addToCanvas")}
+        >
+          <FilePlus2 />
+        </button>
+      </div>
+    </article>
+  );
 
   return (
     <aside className="left-panel" aria-label="Scientific asset library">
@@ -356,73 +456,74 @@ export function AssetsPanel({
         </div>
       </details>
       <div
+        ref={resultsRef}
         className="asset-results"
-        aria-live="polite"
         aria-busy={deferredFilters !== filters}
       >
-        <div className="asset-result-summary">
+        {/* Only the count is announced; opening a shelf must not read out every drawing. */}
+        <div className="asset-result-summary" aria-live="polite">
           <span>
             {results.length} {t(locale, "results")}
           </span>
           <span>Drag or double-click to insert</span>
         </div>
-        {visibleResults.map((asset) => (
-          <article
-            className="asset-card"
-            data-asset-id={asset.id}
-            key={asset.id}
-            draggable
-            onDragStart={(event) => {
-              event.dataTransfer.effectAllowed = "copy";
-              event.dataTransfer.setData(
-                "application/x-openbiofigure-asset",
-                asset.id,
-              );
-            }}
-            aria-busy={pendingAssets.has(asset.id)}
-            onDoubleClick={event => {
-              if ((event.target as HTMLElement).closest("button")) return;
-              void insertAsset(asset);
-            }}
+        {topics.map((topic, topicIndex) => (
+          <section
+            className="asset-topic-section"
+            key={topic.id}
+            aria-labelledby={`${shelfIdPrefix}-topic-${topicIndex}`}
           >
-            <div className="asset-thumb" aria-hidden="true">
-              <img src={getSeedAssetUrl(asset)} alt="" loading="lazy" />
-            </div>
-            <div className="asset-card-copy">
-              <strong title={asset.title}>{asset.title}</strong>
-              <span>{asset.category}</span>
-              {pendingAssets.has(asset.id) && <span role="status">Loading drawing…</span>}
-              <small title={`${asset.source.provider} · ${asset.license.name}`}>
-                <span className="visually-hidden">{asset.source.provider} · </span>
-                <span className="license-tag">{asset.license.id}</span>
-                {asset.license.attributionRequired && (
-                  <span className="credit-flag">credit</span>
-                )}
-              </small>
-            </div>
-            <div className="asset-actions">
-              <button
-                type="button"
-                className={`asset-favorite${libraryState.favorites.includes(asset.id) ? " active" : ""}`}
-                onClick={() => updateFavorite(asset.id)}
-                aria-pressed={libraryState.favorites.includes(asset.id)}
-                aria-label={`${t(locale, "favoriteAsset")}: ${asset.title}`}
-                title={t(locale, "favoriteAsset")}
-              >
-                <Star />
-              </button>
-              <button
-                type="button"
-                className="asset-add"
-                disabled={pendingAssets.has(asset.id)}
-                onClick={() => void insertAsset(asset)}
-                aria-label={`${t(locale, "addToCanvas")}: ${asset.title}`}
-                title={t(locale, "addToCanvas")}
-              >
-                <FilePlus2 />
-              </button>
-            </div>
-          </article>
+            <h3 id={`${shelfIdPrefix}-topic-${topicIndex}`}>
+              <span>{topic.label}</span>
+              <span className="asset-topic-count">{topic.count}</span>
+            </h3>
+            {topic.shelves.map((shelf, shelfIndex) => {
+              const open = shelvesOpenByDefault !== toggledShelves.has(shelf.category);
+              const gridId = `${shelfIdPrefix}-shelf-${topicIndex}-${shelfIndex}`;
+              return (
+                <section className="asset-shelf" key={shelf.category}>
+                  <button
+                    type="button"
+                    className="asset-shelf-header"
+                    aria-label={`${shelf.category}, ${shelf.assets.length} drawings`}
+                    aria-expanded={open}
+                    aria-controls={open ? gridId : undefined}
+                    onClick={(event) => {
+                      const header = event.currentTarget;
+                      toggleShelf(shelf.category);
+                      // Closing a long shelf from its pinned header would leave
+                      // the reader far below it; bring the header back into view.
+                      if (open)
+                        requestAnimationFrame(() =>
+                          header.scrollIntoView({ block: "nearest" }),
+                        );
+                    }}
+                  >
+                    <ChevronRight aria-hidden="true" />
+                    <span className="asset-shelf-name">{shelf.category}</span>
+                    <span className="asset-shelf-count">{shelf.assets.length}</span>
+                    {!open && (
+                      <span className="asset-shelf-preview" aria-hidden="true">
+                        {shelf.assets.slice(0, SHELF_PREVIEW_SIZE).map((asset) => (
+                          <img
+                            key={asset.id}
+                            src={getSeedAssetUrl(asset)}
+                            alt=""
+                            loading="lazy"
+                          />
+                        ))}
+                      </span>
+                    )}
+                  </button>
+                  {open && (
+                    <div className="asset-shelf-grid" id={gridId}>
+                      {shelf.assets.map(renderAssetCard)}
+                    </div>
+                  )}
+                </section>
+              );
+            })}
+          </section>
         ))}
         {!results.length && (
           <div className="empty-state">
@@ -442,15 +543,6 @@ export function AssetsPanel({
               {t(locale, "clearFilters")}
             </button>
           </div>
-        )}
-        {visibleCount < results.length && (
-          <button
-            type="button"
-            className="show-more-button"
-            onClick={() => setVisibleCount((count) => count + RESULT_PAGE_SIZE)}
-          >
-            {t(locale, "showMore")} · {results.length - visibleCount}
-          </button>
         )}
       </div>
       <button

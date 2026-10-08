@@ -10,11 +10,14 @@ local import/export validation, untrusted provenance handling, a static browser
 entry point, hosting headers, and browser validation fixtures. Original file headers
 and license notices are retained. See docs/upstream-source.lock.json for the public upstream revision.
 
-Scientific artwork and fonts have separate licenses. 583 pinned Bioicons drawings
-(296 CC0 and 287 CC BY 4.0) are included in app/public-browser/artwork, with
-creator, source, original and normalized integrity evidence recorded in
-app/src/assets/packs/library-manifest.json. See docs/ARTWORK_LIBRARY.md and
-docs/audit/artwork-inventory.json. Servier art is not distributed.
+Scientific artwork and fonts have separate licenses. 2,665 drawings are included
+in app/public-browser/artwork: 607 pinned Bioicons drawings (314 CC0 and 293
+CC BY 4.0), 1,352 Servier Medical Art drawings from the Bioicons vector edition
+(CC BY 3.0 Unported, credited to Servier Medical Art, https://smart.servier.com/)
+and 706 NIH BioArt Source drawings (https://bioart.niaid.nih.gov/): 701 public
+domain and 5 CC BY 4.0.
+Creator, source, license, original and normalized integrity evidence are recorded
+in app/src/assets/packs/library-manifest.json. See docs/ARTWORK_LIBRARY.md.
 Bundled Barlow, IBM Plex and STIX Two Text fonts retain their SIL OFL notices in
 app/public-browser/licenses.
 

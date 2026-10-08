@@ -978,12 +978,10 @@ kbd {
   padding: 2px 1px 11px 0;
 }
 
-/* Results: a two-column catalog of drawings on paper. */
+/* Results: topic sections of category shelves, each a drawer of drawings on paper. */
 .asset-results {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  align-content: start;
-  gap: 8px;
+  display: flex;
+  flex-direction: column;
   flex: 1 1 auto;
   min-height: 0;
   margin: 0 -6px;
@@ -993,10 +991,9 @@ kbd {
 
 .asset-result-summary {
   display: flex;
-  grid-column: 1 / -1;
   justify-content: space-between;
   gap: 8px;
-  margin: 2px 0 0;
+  margin: 2px 0;
   color: var(--color-text-tertiary);
   font-size: var(--text-caption);
 }
@@ -1012,11 +1009,108 @@ kbd {
   white-space: nowrap;
 }
 
+.asset-topic-section h3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 0;
+  padding: 14px 2px 5px;
+  border-bottom: var(--rule-medium);
+  color: var(--color-text-secondary);
+  font: 600 var(--text-label) / 1.15 var(--font-label);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+}
+
+.asset-topic-section:first-of-type h3 {
+  padding-top: 8px;
+}
+
+.asset-topic-count,
+.asset-shelf-count {
+  color: var(--color-text-tertiary);
+  font-variant-numeric: tabular-nums;
+}
+
+/* A shelf header stays pinned while its drawings scroll beneath it. */
+.asset-shelf-header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 14px minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  min-height: 36px;
+  padding: 4px 2px;
+  border: 0;
+  border-bottom: var(--rule-hair);
+  color: var(--color-text);
+  background: var(--color-surface-primary);
+  font-size: var(--text-meta);
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: left;
+  cursor: pointer;
+}
+
+.asset-shelf-header:hover {
+  background: color-mix(in srgb, var(--color-surface-tertiary) 60%, var(--color-surface-primary));
+}
+
+.asset-shelf-header > svg {
+  width: 14px;
+  height: 14px;
+  color: var(--color-text-tertiary);
+  transition: transform var(--motion-fast) var(--ease-standard);
+}
+
+.asset-shelf-header[aria-expanded="true"] > svg {
+  transform: rotate(90deg);
+}
+
+.asset-shelf-name {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.asset-shelf-count {
+  font-size: var(--text-caption);
+}
+
+.asset-shelf-preview {
+  display: flex;
+  gap: 2px;
+}
+
+.asset-shelf-preview img {
+  width: 24px;
+  height: 24px;
+  padding: 2px;
+  border: var(--rule-hair);
+  background: var(--color-document);
+  object-fit: contain;
+}
+
+.asset-shelf-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(68px, 1fr));
+  gap: 6px;
+  padding: 8px 0 12px;
+  border-bottom: var(--rule-hair);
+}
+
 .asset-card {
   position: relative;
   display: flex;
   flex-direction: column;
   min-width: 0;
+  /* Off-screen tiles skip layout and paint, so a search across the whole library stays quick. */
+  content-visibility: auto;
+  contain-intrinsic-size: auto 124px;
   border: var(--rule-hair);
   border-radius: var(--radius-sm);
   background: var(--color-surface-raised);
@@ -1040,10 +1134,11 @@ kbd {
 }
 
 .asset-thumb {
+  position: relative;
   display: grid;
   place-items: center;
-  aspect-ratio: 4 / 3;
-  padding: 12px 10px 8px;
+  aspect-ratio: 1;
+  padding: 8px 6px 6px;
   overflow: hidden;
   border-bottom: var(--rule-hair);
   background: var(--color-document);
@@ -1063,14 +1158,22 @@ kbd {
   flex-direction: column;
   gap: 2px;
   min-width: 0;
-  padding: 7px 8px 8px;
+  padding: 5px 6px 6px;
+}
+
+.asset-thumb .credit-flag {
+  position: absolute;
+  bottom: 3px;
+  left: 3px;
 }
 
 .asset-card-copy strong {
   display: -webkit-box;
   min-height: 2.5em;
   overflow: hidden;
-  font-size: var(--text-meta);
+  overflow-wrap: anywhere;
+  hyphens: auto;
+  font-size: var(--text-caption);
   font-weight: 600;
   line-height: 1.25;
   -webkit-box-orient: vertical;
@@ -1090,35 +1193,41 @@ kbd {
   font-weight: 600;
 }
 
-.asset-card-copy small {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
-  margin-top: 4px;
-}
-
-.license-tag,
 .credit-flag {
   padding: 1px 4px;
-  border: var(--rule-hair);
-  color: var(--color-text-secondary);
+  border: 1px solid var(--color-brand-border);
+  color: var(--color-text);
+  background: var(--color-brand-soft);
   font: 600 var(--text-label) / 1.25 var(--font-label);
   letter-spacing: 0.03em;
   white-space: nowrap;
 }
 
-.credit-flag {
-  border-color: var(--color-brand-border);
-  color: var(--color-text);
-  background: var(--color-brand-soft);
-}
-
 .asset-actions {
   position: absolute;
-  top: 5px;
-  right: 5px;
+  top: 4px;
+  right: 4px;
   display: flex;
   gap: 3px;
+}
+
+/* Compact tiles keep the drawing clear: keys appear on hover or focus, and a
+   favourite stays marked. Touch screens always show them. */
+.asset-actions button {
+  opacity: 0;
+  transition: opacity var(--motion-fast) var(--ease-standard);
+}
+
+.asset-card:hover .asset-actions button,
+.asset-card:focus-within .asset-actions button,
+.asset-actions .asset-favorite.active {
+  opacity: 1;
+}
+
+@media (hover: none) {
+  .asset-actions button {
+    opacity: 1;
+  }
 }
 
 .asset-favorite,
@@ -1166,25 +1275,6 @@ kbd {
   height: 14px;
 }
 
-.show-more-button {
-  grid-column: 1 / -1;
-  min-height: 34px;
-  margin: 2px 0 6px;
-  border: var(--rule-medium);
-  border-radius: var(--radius-sm);
-  color: var(--color-text);
-  background: var(--color-surface-raised);
-  font-size: var(--text-meta);
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
-  cursor: pointer;
-}
-
-.show-more-button:hover {
-  border-color: var(--color-text-secondary);
-  background: var(--color-surface-secondary);
-}
-
 .import-button {
   display: flex;
   flex: 0 0 auto;
@@ -1213,7 +1303,6 @@ kbd {
 
 .left-panel .asset-results .empty-state {
   display: flex;
-  grid-column: 1 / -1;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -1982,117 +2071,10 @@ kbd {
   height: 13px;
 }
 
-/* License: the approval block and parts credits. */
+/* License: each drawing's license and any credit it requires. */
 .licensing-panel {
   flex: 1 1 auto;
   padding: 14px 12px 20px;
-}
-
-.publication-score {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 12px;
-  border: var(--rule-medium);
-  background: var(--color-surface-raised);
-}
-
-.publication-score.is-ready {
-  border-color: var(--color-success);
-}
-
-.publication-score.has-warning {
-  border-color: var(--color-warning);
-}
-
-.score-icon {
-  display: grid;
-  flex: 0 0 auto;
-  width: 32px;
-  height: 32px;
-  place-items: center;
-  border: 1px solid currentColor;
-  color: var(--color-success);
-}
-
-.has-warning .score-icon {
-  color: var(--color-warning);
-}
-
-.score-icon svg {
-  width: 16px;
-  height: 16px;
-}
-
-.publication-score > div {
-  display: grid;
-  flex: 1;
-  grid-template-columns: 1fr auto;
-  align-items: center;
-  gap: 2px 8px;
-}
-
-.publication-score strong {
-  font-size: var(--text-body);
-}
-
-.publication-score div small {
-  grid-column: 1 / -1;
-  color: var(--color-text-secondary);
-  font-size: var(--text-meta);
-}
-
-.publication-state {
-  padding: 2px 6px;
-  border: 1px solid currentColor;
-  color: var(--color-success);
-  font: 600 var(--text-label) / 1.2 var(--font-label);
-  letter-spacing: var(--tracking-label);
-  text-transform: uppercase;
-}
-
-.has-warning .publication-state {
-  color: var(--color-warning);
-}
-
-.check-list {
-  display: flex;
-  flex-direction: column;
-  gap: 7px;
-  margin: 14px 0;
-  padding: 0;
-  color: var(--color-text-secondary);
-  font-size: var(--text-meta);
-  line-height: 1.4;
-  list-style: none;
-}
-
-.check-list li {
-  display: flex;
-  align-items: flex-start;
-  gap: 7px;
-}
-
-.check-list svg {
-  flex: 0 0 auto;
-  width: 14px;
-  height: 14px;
-  margin-top: 1px;
-  color: var(--color-success);
-}
-
-.check-list .warning-row,
-.check-list .warning-row svg {
-  color: var(--color-warning);
-}
-
-.preflight-checks {
-  padding-top: 14px;
-  border-top: var(--rule-hair);
-}
-
-.preflight-checks .check-list {
-  margin-top: 0;
 }
 
 .credit-card {
@@ -2101,6 +2083,11 @@ kbd {
   margin: 0;
   padding: 11px 0;
   border-top: var(--rule-hair);
+}
+
+.credit-card:first-child {
+  padding-top: 0;
+  border-top: 0;
 }
 
 .credit-card > div {
@@ -2159,23 +2146,9 @@ kbd {
   border-top: var(--rule-hair);
 }
 
-.attribution-actions .button:first-child {
-  grid-column: 1 / -1;
-}
-
 .attribution-actions .button {
   padding-inline: 8px;
   font-size: var(--text-meta);
-}
-
-.legal-note {
-  margin: 14px 0 0;
-  padding: 10px 12px;
-  border: var(--rule-hair);
-  color: var(--color-text-tertiary);
-  background: var(--color-surface-secondary);
-  font-size: var(--text-meta);
-  line-height: 1.5;
 }
 
 .full-width {
@@ -2821,8 +2794,8 @@ kbd {
     font-size: var(--text-label);
   }
 
-  .asset-results {
-    gap: 6px;
+  .asset-shelf-grid {
+    gap: 4px;
   }
 
   .asset-scopes svg {
@@ -2830,7 +2803,7 @@ kbd {
   }
 
   .asset-card-copy {
-    padding: 6px 7px 7px;
+    padding: 5px 5px 6px;
   }
 }
 

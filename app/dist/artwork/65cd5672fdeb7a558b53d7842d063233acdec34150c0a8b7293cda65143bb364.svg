@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+  
+  <defs>
+    
+    <clipPath id="clippath-1">
+      <rect x="155.569" y="120.928" width="169.038" height="241.899" stroke="#636565" stroke-miterlimit="10" stroke-width="6.671px" fill="#f0f0f2"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect x="155.569" y="120.928" width="169.038" height="241.899" stroke="#636565" stroke-miterlimit="10" stroke-width="6.671px" fill="#f0f0f2"/>
+    </clipPath>
+  </defs>
+  <g style="isolation: isolate">
+    <g id="SingleWell0001">
+      <g>
+        <rect x="155.569" y="120.928" width="169.038" height="241.899" fill="#f0f0f2"/>
+        <g clip-path="url(#clippath-1)">
+          <rect x="103.442" y="233.814" width="264.937" height="145.14" fill="#eaa0ce"/>
+        </g>
+        <rect x="155.569" y="120.928" width="169.038" height="241.899" fill="none" stroke="#636565" stroke-miterlimit="10" stroke-width="6.671px"/>
+      </g>
+      <g style="mix-blend-mode: color">
+        <g>
+          <rect x="155.569" y="120.928" width="169.038" height="241.899" fill="#f0f0f2"/>
+          <g clip-path="url(#clippath-4)">
+            <rect x="103.442" y="233.814" width="264.937" height="145.14" fill="#eaa0ce"/>
+          </g>
+          <rect x="155.569" y="120.928" width="169.038" height="241.899" fill="none" stroke="#636565" stroke-miterlimit="10" stroke-width="6.671px"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
