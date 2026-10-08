@@ -1,8 +1,15 @@
 # OpenBRender 0.1.0
 
+ <a href="https://openbrender.gptchatly.com/">Free OpenBRender app</a>
+
 Open-source scientific figure editor adapted from OpenBioFigure. This dated
 distribution includes the supported browser application's source, locked
 dependencies, tests, licensed artwork, and a ready-to-run production build.
+
+<p align="center">
+  <img src="./OpenBRender_intro.gif" alt="Open-source biological images app" width="800" />
+</p>
+
 
 ## Run
 
